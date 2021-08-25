@@ -31,7 +31,7 @@ This exercise includes the following tasks:
 
 3.  Select **Next: IP Addresses**
 
-     ![go to IP address]("https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/VN2.png?raw=true")
+     ![move to IP address](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/VN2.png?raw=true)
     
 4.  Leave everything as default for now.
 
