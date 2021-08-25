@@ -13,3 +13,5 @@ This exercise includes the following tasks:
 * Provision of subnets for AVD, Internal, DMZ scenarios
 
 
+## Task 1: Provision Virtual Network 
+
