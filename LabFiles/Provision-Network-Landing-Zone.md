@@ -19,4 +19,8 @@ This exercise includes the following tasks:
 
     ![Portal](media/portal.png)
     
+2. In the **Search the Marketplace** box, search for and select **Virtual network** and select **Create**. 
+
+    ![Vnet](media/VNet.png)
+    
 
