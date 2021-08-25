@@ -58,3 +58,21 @@ This exercise includes the following tasks:
     - **Name** : **AVD**
     - **Subnet Address Range** : **10.0.0.0/24**
     - Select **Save**
+
+    ![AVD](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/AVD.png?raw=true)
+    
+11. Repeat the step-9 for creating **DMZ** subnet
+
+    - **Name** : **DMZ**
+    - **Subnet Address Range** : **10.0.2.0/25**
+    - Select **Save**
+
+    ![DMZ](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/DMZ.png?raw=true)
+    
+12. Repeat the step-9 for creating **Internal** subnet
+
+    - **Name** : **Internal**
+    - **Subnet Address Range** : **10.1.2.0/24** (Make sure that Subnet Address Range is within the range of default Address Space of VNet)
+    - Select **Save**
+    
+    ![Internal](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Internal.png?raw=true)
