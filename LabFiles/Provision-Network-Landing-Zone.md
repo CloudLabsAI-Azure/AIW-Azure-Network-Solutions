@@ -17,7 +17,7 @@ This exercise includes the following tasks:
 
 1. Navigate to the Azure portal home (<https://portal.azure.com>) and click on **Create a resource** .
 
-    ![Portal](media/portal.png)
+    ![Portal](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/portal.png?raw=true)
     
 2. In the **Search the Marketplace** box, search for and select **Virtual network** and select **Create**. 
 
