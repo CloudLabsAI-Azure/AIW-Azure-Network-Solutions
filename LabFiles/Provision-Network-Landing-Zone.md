@@ -15,3 +15,6 @@ This exercise includes the following tasks:
 
 ## Task 1: Provision Virtual Network 
 
+1. Navigate to the Azure portal home (<https://portal.azure.com>) and click on **Create a resource** .
+
+    ![Portal](media/portal.png)
