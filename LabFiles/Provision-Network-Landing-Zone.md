@@ -40,3 +40,21 @@ This exercise includes the following tasks:
 6.  Review the configuration and select **Create**.
 
 7.  Monitor the deployment status by selecting **Notifications Bell** at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
+
+8.  Under Virtual Network blade select **Address Space**
+    
+     - Add **Address Space** : **10.0.0.0/20**
+
+     -  Click on **Save**
+
+     ![Address space](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/AS1.png?raw=true)
+     
+9.  Now select **Subnets** from NSVnet blade and Click on **+Subnet**
+
+      ![Subnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/subnet.png?raw=true)
+      
+10. Under **Add Subnet** 
+
+    - **Name** : **AVD**
+    - **Subnet Address Range** : **10.0.0.0/24**
+    - Select **Save**
