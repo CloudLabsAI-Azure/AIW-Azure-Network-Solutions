@@ -17,4 +17,6 @@ This exercise includes the following tasks:
 
 1. Navigate to the Azure portal home (<https://portal.azure.com>) and click on **Create a resource** .
 
-      ![Portal](media/portal.png)
+    ![Portal](media/portal.png)
+    
+
