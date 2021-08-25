@@ -17,11 +17,11 @@ This exercise includes the following tasks:
 
 1. Navigate to the Azure portal home (<https://portal.azure.com>) and click on **Create a resource** .
 
-    ![Portal](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/portal.png?raw=true)
+    ![Portal](https://github.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/blob/prod/media/portal.png?raw=true)
     
 2. In the **Search the Marketplace** box, search for and select **Virtual network** and select **Create**. 
 
-    ![Vnet](media/VNet.png)
+    ![Vnet](https://github.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/blob/prod/media/VNet.png?raw=true)
     
 3.  On the **Create virtual network** blade, on the **Basic** tab, enter the following information:
 
