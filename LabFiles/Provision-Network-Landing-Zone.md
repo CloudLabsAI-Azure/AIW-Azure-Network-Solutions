@@ -61,4 +61,25 @@ This exercise includes the following tasks:
 
     ![Address Space](media/as.png)
     
+10.In the **Subnets** blade select **+Subnet**.
 
+    ![In the Subnets blade, the add Subnet button is selected.](media/subnet.png)
+    
+11.  On the **Add subnet** blade, enter the following information:
+
+    -  Name: **AVD**
+
+    -  Address range: **10.0.0.0/24**
+
+    -  Service Endpoints: **Leave as Default**.
+    
+12.  When your dialog looks like the following screenshot, select **Save** to create the subnet.
+
+    ![In this screenshot, the 'Add subnet' blade of the Azure portal is depicted with the settings specified in the previous step selected.]("media/subnet1.png")
+    
+13. Repeat Step 10, enter the following information for DMZ. 
+
+    -  Name: **DMZ** 
+
+    -  Address range: **10.0.2.0/25**
+    -  
