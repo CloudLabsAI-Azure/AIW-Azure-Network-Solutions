@@ -27,9 +27,9 @@ This exercise includes the following tasks:
 
     -  **Subscription**: **Select your subscription**.
   
-    -  **Resource group**: Select resource group from drop down list.
+    -  **Resource group**: Select resource group from drop down list **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** .
 
-    -  **Name**: **NSVnet**
+    -  **Name**: **NSVnet-<inject key="DeploymentID" enableCopy="false"/>**
 
     -  **Location**: **East US**
 
