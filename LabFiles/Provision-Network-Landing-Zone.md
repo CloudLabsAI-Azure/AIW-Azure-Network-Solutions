@@ -15,7 +15,7 @@ This exercise includes the following tasks:
 
 ## Task 1: Provision Virtual Network 
 
-1.  From your **LABVM**, connect to the Azure portal, select **+ Create a resource**, and in the **Search the Marketplace** box, search for and select **Virtual network** and select **Create**.
+1.  From your **LABVM**, connect to the Azure portal, select **+ Create a resource**.
 
      ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
      
