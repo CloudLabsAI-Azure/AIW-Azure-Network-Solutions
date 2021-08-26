@@ -15,9 +15,9 @@ This exercise includes the following tasks:
 
 ## Task 1: Provision Virtual Network 
 
-## Overview
+### Overview
 
-* In this task, you will create a virtual network 
+In this task, you will create a virtual network
 
 
 
@@ -58,7 +58,8 @@ This exercise includes the following tasks:
   
 ## Overview
 
-* In this task, you will create a Subnet for different scenarios like AVD, DMZ, Internal.
+
+In this task, you will create a Subnet for different scenarios like AVD, DMZ, Internal.
 
 
 
