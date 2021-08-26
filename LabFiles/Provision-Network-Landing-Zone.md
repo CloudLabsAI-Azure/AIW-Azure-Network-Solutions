@@ -84,4 +84,4 @@ This exercise includes the following tasks:
     - **Subnet Address Range** : **10.1.2.0/24** (Make sure that Subnet Address Range is within the range of default Address Space of VNet)
     - Select **Save**
     
-    ![Internal](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Internal.png?raw=true)
+    ![Internal](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/internal1.png?raw=true)
