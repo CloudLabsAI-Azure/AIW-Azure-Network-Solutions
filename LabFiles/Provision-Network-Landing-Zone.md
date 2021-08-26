@@ -56,8 +56,7 @@ In this task, you will create a virtual network
 
 ## Task 2: Provision of subnets
   
-## Overview
-
+### Overview
 
 In this task, you will create a Subnet for different scenarios like AVD, DMZ, Internal.
 
