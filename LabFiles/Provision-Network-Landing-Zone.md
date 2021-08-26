@@ -19,7 +19,11 @@ This exercise includes the following tasks:
 
      ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
      
-2. On the **Create virtual network** blade, on the **Basic** tab, enter the following information:
+2.  In the **Search the Marketplace** box, search for and select **Virtual network** and select **Create**. 
+
+     ![Create Resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/create-vnet-1.png?raw=true)
+     
+3. On the **Create virtual network** blade, on the **Basic** tab, enter the following information:
 
     -  Subscription: **Select your subscription**.
   
@@ -29,19 +33,19 @@ This exercise includes the following tasks:
 
     -  Location: **East US**
 
-3.  Select **Next: IP Addresses**
+4.  Select **Next: IP Addresses**
 
      ![move to IP address](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/VN2.png?raw=true)
     
-4.  Leave everything as default for now.
+5.  Leave everything as default for now.
 
-5.  Select **Review + Create**.
+6.  Select **Review + Create**.
 
-6.  Review the configuration and select **Create**.
+7.  Review the configuration and select **Create**.
 
-7.  Monitor the deployment status by selecting **Notifications Bell** at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
+8.  Monitor the deployment status by selecting **Notifications Bell** at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
 
-8.  Under Virtual Network blade select **Address Space**
+9.  Under Virtual Network blade select **Address Space**
     
      - Add **Address Space** : **10.0.0.0/20**
 
@@ -49,11 +53,11 @@ This exercise includes the following tasks:
 
      ![Address space](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/AS1.png?raw=true)
      
-9.  Now select **Subnets** from NSVnet blade and Click on **+Subnet**
+10.  Now select **Subnets** from NSVnet blade and Click on **+Subnet**
 
       ![Subnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/subnet.png?raw=true)
       
-10. Under **Add Subnet** 
+11. Under **Add Subnet** 
 
     - **Name** : **AVD**
     - **Subnet Address Range** : **10.0.0.0/24**
@@ -61,7 +65,7 @@ This exercise includes the following tasks:
 
     ![AVD](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/AVD.png?raw=true)
     
-11. Repeat the step-9 for creating **DMZ** subnet
+12. Repeat the step-10 for creating **DMZ** subnet
 
     - **Name** : **DMZ**
     - **Subnet Address Range** : **10.0.2.0/25**
@@ -69,7 +73,7 @@ This exercise includes the following tasks:
 
     ![DMZ](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/DMZ.png?raw=true)
     
-12. Repeat the step-9 for creating **Internal** subnet
+13. Repeat the step-10 for creating **Internal** subnet
 
     - **Name** : **Internal**
     - **Subnet Address Range** : **10.1.2.0/24** (Make sure that Subnet Address Range is within the range of default Address Space of VNet)
