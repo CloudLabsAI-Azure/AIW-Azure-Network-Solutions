@@ -43,6 +43,8 @@ This exercise includes the following tasks:
 
 7.  Review the configuration and select **Create**.
 
+     ![VNet Creation](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/VirtualNet3.png?raw=true)
+
 8.  Monitor the deployment status by selecting **Notifications Bell** at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
 
 9.  Under Virtual Network blade select **Address Space**
