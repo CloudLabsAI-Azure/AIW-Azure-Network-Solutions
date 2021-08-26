@@ -19,7 +19,7 @@ This exercise includes the following tasks:
 
      ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
      
-2.  In the **Search the Marketplace** box, search for and select **Virtual network** and select **Create**. 
+2.  In the **Search the Marketplace** box, select **Networking**, followed by **Virtual network** and Click on **Create**. 
 
      ![Create Resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/create-vnet-1.png?raw=true)
      
