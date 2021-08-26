@@ -21,7 +21,7 @@ This exercise includes the following tasks:
      
 2.  In the **Search the Marketplace** box, select **Networking**, followed by **Virtual network** and Click on **Create**. 
 
-     ![Create Resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/create-vnet-1.png?raw=true)
+     ![Create Resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/netvnet.png?raw=true)
      
 3. On the **Create virtual network** blade, on the **Basic** tab, enter the following information:
 
