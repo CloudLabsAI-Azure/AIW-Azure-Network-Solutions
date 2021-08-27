@@ -108,7 +108,7 @@ In this task, you will associate the IP Address to Virtual Machine
    ![Port 443](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-port-443.png?raw=true)
 
    
-## Task 2: Configure NSGs/ASGs and allow Application Access
+## Task 3: Configure NSGs/ASGs and allow Application Access
 
 
 ### Overview
