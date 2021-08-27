@@ -191,4 +191,8 @@ In this task, you will create a Network Security Group and access for Applicatio
 
      ![Secondary VM](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVM2.png?raw=true)
      
-4.
+4. Move to the **Networking** tab, make sure you select Subnet as **Internal** and click on **Review and Create**.
+
+    ![networking](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVM2-1.png?raw=true)
+    
+5. 
