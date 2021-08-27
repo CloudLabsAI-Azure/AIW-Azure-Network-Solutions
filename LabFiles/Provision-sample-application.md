@@ -108,4 +108,63 @@ In this task, you will associate the IP Address to Virtual Machine
    ![Port 443](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-port-443.png?raw=true)
 
    
+## Task 2: Configure NSGs/ASGs and allow Application Access
+
+
+### Overview
+
+In this task, you will create a Network Security Group and access for Application.
+
+1. From your **LABVM**, select **Network Security Group** and Click on **Create**.
+
+   ![NSG](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/create%20nsg.png?raw=true)
+   
+2. On the Create an network security group blade, on the Basics tab, enter the following information, and select Review + create:
+
+   - **Resource Group** : Select your resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>"
+
+   - **Name** : **NSG-<inject key="DeploymentID" enableCopy="false"/>**.
+
+   ![NSG](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createNSG.png?raw=true)
+   
+3. Monitor the deployment status by selecting Notifications Bell at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select Go    to Resource.
+
+    ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/NSG2.png?raw=true)
+    
+4. Now go back to the VM we created in task-1, click on **Connect** to connect RDP 
+
+    ![connect](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/connect-RDP.png?raw=true)
+    
+5. Now click on **Download RDP File** and open VM after it got downloaded.
+
+    ![download rdp file](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/downloadRDP-VM1.png?raw=true)
+    
+6. Provide the below details to connect VM
+
+    - **User Name**  : **.\demouser**
+
+    - **Password**   : **Password.1!!**
+
+7. After connecting to the VM, you wil be promted with the **Networks** dialogue box then click on **Yes**.
+
+    ![networks](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/networks-in-VM1.png?raw=true)
+    
+8. Minimize the **Server Manager** tab.
+
+9. Click on the Windows icon at left-bottom corner and search for **Powershell ISE** then run it as Administrator.
+
+10. Enter the below command in Powershell and Click on **Run**.
+
+     * Install-WindowsFeature -name Web-Server -IncludeManagementTools
+
+     ![Run app](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/runcommand.png?raw=true)
+     
+11. After running the command successfully, close the RDP and go back to the **Overview** of **VM-<inject key="DeploymentID" enableCopy="false"/>**.
+
+12. Now copy the **Public IP** of **VM-<inject key="DeploymentID" enableCopy="false"/>** and browse it in new tab.
+
+13. You will get the web page as mentioned in below screenshot.
+
+    ![webapp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/webapp.png?raw=true)
+   
    
