@@ -237,6 +237,12 @@ In this task, you will create a Network Security Group and access for Applicatio
 
      ![add frontend ip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Add%20frontend%20ip%20address.png?raw=true)
     
-11. After adding should see the screen as mentioned in below Screen shot and click on **Backend Pool**
+11. After adding frontend IP Address should see the screen as mentioned in below Screen shot and click on **Backend Pool**
 
     ![next to backend pool](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Next-to-backendpool.png?raw=true)
+    
+12. Follow the below instructions to create **Backend Pool**
+
+     - **Name** : **BackendPool-<inject key="DeploymentID" enableCopy="false"/>**
+
+     - **Virtual Network** : Select the created Vnet **
