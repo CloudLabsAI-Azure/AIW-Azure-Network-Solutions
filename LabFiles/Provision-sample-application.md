@@ -16,10 +16,14 @@ This exercise includes the following tasks:
 
 *	Test Application 
 
-*	Setup Load Balancing 
-       *	 Provision Secondary VM
+*	Setup Load Balancing :
+
+       *	 Provision Secondary VM.
        
-       *	 Provision Load Balancing using External Load Balancer 
+       *	 Provision Load Balancing using External Load Balancer. 
        
-       *	Test LB & VM failover.
+       *	 Test LB & VM failover.
+
+
+
 
