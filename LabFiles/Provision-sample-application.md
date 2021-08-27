@@ -77,3 +77,35 @@ In this task, you will associate the IP Address to Virtual Machine
    - Click on **OK**
 
    ![AssociatePIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/asociate-PIP1.png?raw=true)
+   
+8. Now go back to the Virtual Machine and you can observe the Public Ip in Overview.
+
+   ![PIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/changed%20Public%20IP%20in%20VM1.png?raw=true)
+   
+9. On Virtual Machine blade, under **Settings** Select **Networking** followed by **Add Inbound Port Rule**.
+
+   ![Add Inbound Port rule](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-inbound-port-vm1.png?raw=true)
+
+
+10. Under **Add inbound security rule**:
+
+   - Add **Destination Port Range** as **80**
+   
+   - **Name** : **Port_80**
+
+   - Click on **Add**
+
+   ![port_80](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-port80.png?raw=true)
+  
+11. Repeat the step-9 to create **Port_443**
+
+    - Add **Destination Port Range** as **443**
+
+    - **Name** : **Port_443**
+
+    - Click on **Add**
+
+   ![Port 443](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-port-443.png?raw=true)
+
+   
+   
