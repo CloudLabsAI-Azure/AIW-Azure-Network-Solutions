@@ -25,5 +25,9 @@ This exercise includes the following tasks:
        *	 Test LB & VM failover.
 
 
+## Task 2: Add Public IP to the virtual machine
 
+### Overview
+
+In this task, you will associate the IP Address to Virtual Machine
 
