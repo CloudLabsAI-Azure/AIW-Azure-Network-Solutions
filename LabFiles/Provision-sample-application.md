@@ -191,8 +191,52 @@ In this task, you will create a Network Security Group and access for Applicatio
 
      ![Secondary VM](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVM2.png?raw=true)
      
-4. Move to the **Networking** tab, make sure you select Subnet as **Internal** and click on **Review and Create**.
+4. Move to the **Networking** tab, under **Public IP** select **Create new** and make sure you select **SKU** as **Standard** for Public IP and click on **OK**.
+
+    ![Standard IP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/stabdardIP-VM2.png?raw=true)
+     
+5. Select Subnet as **Internal** and click on **Review and Create**.
 
     ![networking](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVM2-1.png?raw=true)
     
-5. 
+6.  Select **Load Balancer** from **LabVM**.
+
+     ![LoadBalancer](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/LB.png?raw=true)
+     
+7. Under the **basic** tab of Load Balancer enter the following commands:
+
+     - **Resource Group** : **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**
+
+     - **Name**  : **ANS-LB<inject key="DeploymentID" enableCopy="false"/>**
+
+     - **Type**  : **Public**
+
+     - Click on **Frontend IP Configuration**
+
+        ![Basic LB](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Create%20LB.png?raw=true)
+        
+8.  Click on **Add a frontend IP**
+
+       ![frontendIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Front%20endIP.png?raw=true)
+       
+9.  Enter the following instructions to create **Frontend IP** :
+
+     - **Name** : **FIP-<inject key="DeploymentID" enableCopy="false"/>**
+
+     - **IP Version** : **IPv4**
+
+     - **IP type** : **IP Address**
+
+     - Under **Public IP address** click on **Create new**
+      
+     -  Now add **Name** as **PublicIP-<inject key="DeploymentID" enableCopy="false"/>** ,click on **Ok**.
+
+       ![frontendIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/FrontendIP.png?raw=true)
+       
+10. Now click on **Add**.
+
+     ![add frontend ip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Add%20frontend%20ip%20address.png?raw=true)
+    
+11. After adding should see the screen as mentioned in below Screen shot and click on **Backend Pool**
+
+    ![next to backend pool](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Next-to-backendpool.png?raw=true)
