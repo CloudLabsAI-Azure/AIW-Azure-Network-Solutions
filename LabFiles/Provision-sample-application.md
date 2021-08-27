@@ -170,7 +170,7 @@ In this task, you will create a Network Security Group and access for Applicatio
    
  ## Task 3 : Setup Load Balancing 
  
- ## Task 3.1 : Provision Secondary VM
+ ### Task 3.1 : Provision Secondary VM
  
  
  ### Overview
