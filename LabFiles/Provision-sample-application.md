@@ -32,53 +32,49 @@ This exercise includes the following tasks:
 In this task, you will associate the IP Address to Virtual Machine
 
 
-1. Go to the cretaed VM and you can observer the Public IP is not associated.
+1. Navigate to the newly deployed virtual machine and notice there is no public ip associated.
 
    ![noIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/NoIp-VM1.png?raw=true)
    
-2. From your **LABVM**, select **+ Create a resource**.
+2. Now click on **Home** from top left corner and navigate to the **Azure Portal** then select **+ Create a resource**.
 
      ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
      
-3. Search for **Public IP Address** and Click on **Create**
+3. Search for **Public IP Address** from the home page of **Azure Portal** and Click on **Create**
 
     ![create Vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createPIP-1.png?raw=true)
     
 4. Enter the following information to create Public IP Address:
 
-   - **SKU**  : **Standard**
+   - SKU  : **Standard**
 
-   - **Tier** : **Regional**
+   - Tier : **Regional**
 
-   - **Name** : **PublicIP1-<inject key="DeploymentID" enableCopy="false"/>**
+   - Name : **PublicIP1-<inject key="DeploymentID" enableCopy="false"/>**
 
    - Choose your **Subscription Group**
 
-   - **Resource Group** : **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**
+   - Resource Group : **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**
 
    - Click on **Create**.
 
    ![createIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createPIP1.png?raw=true)
    
-5. Monitor the deployment status by selecting Notifications Bell at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select Go    to Resource.
+5. Monitor the deployment status by selecting **Notifications** Bell at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select  **Go to Resource**.
 
   ![Create IP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/GO-to-resource-pip1.png?raw=true)
 
-6. To Associate the Public IP to VM follow the below instructions:
+6. Click on **Associate** to associate the Public IP to VM and use the following instructions under **Associate Public IP address**
 
-   - Click on **Associate**
+   - Resource Type : Select **Network Interface** from drop down.
 
-7. Under the Associate Public IP address use the following instructions:
-
-   - **Resource Type** : Select **Network Interface** from drop down.
-
-   - **Network Interface** : Select Network Interface of the VM.
+   - Network Interface : Select Network Interface of the VM.
 
    - Click on **OK**
 
    ![AssociatePIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/asociate-PIP1.png?raw=true)
    
-8. Now go back to the Virtual Machine and you can observe the Public Ip in Overview.
+8. Now navigate back to the Virtual Machine by selecting **Home** button and you can observe the Public Ip in **Overview** tab of Virtual Machine.
 
    ![PIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/changed%20Public%20IP%20in%20VM1.png?raw=true)
    
@@ -91,7 +87,7 @@ In this task, you will associate the IP Address to Virtual Machine
 
    - Add **Destination Port Range** as **80**
    
-   - **Name** : **Port_80**
+   - Name : **Port_80**
 
    - Click on **Add**
 
