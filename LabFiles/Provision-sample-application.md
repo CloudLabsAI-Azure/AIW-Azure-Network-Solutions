@@ -97,7 +97,7 @@ In this task, you will associate the IP Address to Virtual Machine
 
     - Add **Destination Port Range** as **443**
 
-    - **Name** : **Port_443**
+    - Name : **Port_443**
 
     - Click on **Add**
 
@@ -117,9 +117,9 @@ In this task, you will create a Network Security Group and access for Applicatio
    
 2. On the **Basics** tab of  Create an network security group enter the following information, and select **Review + create**:
 
-   - **Resource Group** : Select your resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>"
+   - Resource Group : Select your resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>"
 
-   - **Name** : **NSG-<inject key="DeploymentID" enableCopy="false"/>**.
+   - Name : **NSG-<inject key="DeploymentID" enableCopy="false"/>**.
 
    ![NSG](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createNSG.png?raw=true)
    
@@ -137,9 +137,9 @@ In this task, you will create a Network Security Group and access for Applicatio
     
 6. Provide the below details to connect VM
 
-    - **User Name**  : **.\demouser**
+    - User Name  : **.\demouser**
 
-    - **Password**   : **Password.1!!**
+    - Password   : **Password.1!!**
 
 7. After connecting to the VM, you wil be promted with the **Networks** dialogue box then click on **Yes**.
 
@@ -208,11 +208,11 @@ In this task, you will create a Network Security Group and access for Applicatio
      
 7. Under the **basic** tab of Load Balancer enter the following commands:
 
-     - **Resource Group** : **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**
+     - Resource Group : **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**
 
-     - **Name**  : **ANS-LB<inject key="DeploymentID" enableCopy="false"/>**
+     - Name  : **ANS-LB<inject key="DeploymentID" enableCopy="false"/>**
 
-     - **Type**  : **Public**
+     - Type  : **Public**
 
      - Click on **Frontend IP Configuration**
 
@@ -224,11 +224,11 @@ In this task, you will create a Network Security Group and access for Applicatio
        
 9.  Enter the following instructions to create **Frontend IP** :
 
-     - **Name** : **FIP-<inject key="DeploymentID" enableCopy="false"/>**
+     - Name : **FIP-<inject key="DeploymentID" enableCopy="false"/>**
 
-     - **IP Version** : **IPv4**
+     - IP Version : **IPv4**
 
-     - **IP type** : **IP Address**
+     - IP type : **IP Address**
 
      - Under **Public IP address** click on **Create new**
       
