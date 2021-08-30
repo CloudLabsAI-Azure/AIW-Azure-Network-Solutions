@@ -288,9 +288,9 @@ In this task, you will create a Network Security Group and access for Applicatio
 
       ![Associate NSG to VM](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/nic-nsg.png?raw=true)
       
-8. On **Network Security Group** blade, under **Settings** Select **Inbound security Rules** and click on **Add**.
+5. On **Network Security Group** blade, under **Settings** Select **Inbound security Rules** and click on **Add**.
 
-9.  Under **Add inbound security rule**:
+6.  Under **Add inbound security rule**:
 
      - Add **Destination Port Range** as **3389**
    
@@ -301,7 +301,7 @@ In this task, you will create a Network Security Group and access for Applicatio
         ![Add RDP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-rdp.png?raw=true)
 
 
-9. Repeat the step-8 to create **Port_80**
+7. Repeat the step-5 to create **Port_80**
 
    - Add **Destination Port Range** as **80**
    
@@ -309,9 +309,9 @@ In this task, you will create a Network Security Group and access for Applicatio
 
    - Click on **Add**
 
-   ![port_80](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-port80.png?raw=true)
+   ![port_80](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-80.png?raw=true)
   
-10. Repeat the step-9 to create **Port_443**
+8. Repeat the step-5 to create **Port_443**
 
     - Add **Destination Port Range** as **443**
 
@@ -319,55 +319,31 @@ In this task, you will create a Network Security Group and access for Applicatio
 
     - Click on **Add**
 
-   ![Port 443](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-port-443.png?raw=true)
+   ![Port 443](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-443.png?raw=true)
 
-   
-## Task 3: Configure NSGs/ASGs and allow Application Access
-
-
-### Overview
-
-In this task, you will create a Network Security Group and access for Application.
-
-1. From your **Azure Portal**, select **Network Security Group** and click on **Create**.
-
-   ![NSG](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/create%20nsg.png?raw=true)
-   
-2. On the **Basics** tab of  Create an network security group enter the following information, and select **Review + create**:
-
-   - Resource Group : Select your resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>"
-
-   - Name : **NSG-<inject key="DeploymentID" enableCopy="false"/>**.
-
-   ![NSG](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/nsg1.png?raw=true)
-   
-3. Monitor the deployment status by selecting **Notifications** Bell at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
-
-    ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/notifi1.png?raw=true)
-    
-4. Now navigate back to the VM we created in task-1, click on **Connect** to connect RDP 
+9. Now navigate back to the VM we created in task-1, click on **Connect** to connect RDP 
 
     ![connect](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/connect-RDP.png?raw=true)
     
-5. Now click on **Download RDP File** and open VM after it got downloaded.
+10. Now click on **Download RDP File** and open VM after it got downloaded.
 
     ![download rdp file](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/downloadRDP-VM1.png?raw=true)
     
-6. Provide the below details to connect VM
+11. Provide the below details to connect VM
 
     - User Name  : **.\demouser**
 
     - Password   : **Password.1!!**
 
-7. After connecting to the VM, you wil be promted with the **Networks** dialogue box then click on **Yes**.
+12. After connecting to the VM, you wil be promted with the **Networks** dialogue box then click on **Yes**.
 
     ![networks](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/networks-in-VM1.png?raw=true)
     
-8. Minimize the **Server Manager** tab.
+13. Minimize the **Server Manager** tab.
 
-9. Click on the Windows icon at left-bottom corner and search for the **Powershell ISE** then run it as Administrator.
+14. Click on the Windows icon at left-bottom corner and search for the **Powershell ISE** then run it as Administrator.
 
-10. Enter the below command in Powershell and Click on **Run**.
+15. Enter the below command in Powershell and Click on **Run**.
 
      * Install-WindowsFeature -name Web-Server -IncludeManagementTools
 
