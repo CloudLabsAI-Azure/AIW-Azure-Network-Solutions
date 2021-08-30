@@ -189,6 +189,14 @@ In this task, you will be deploying a virtual machine without public IP address 
     - Click on **Review + Create**
 
       ![template deployment](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/customdep1.png?raw=true)
+      
+ 6. Review the template and select **Create**
+
+      ![template deployment](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/customdep2.png?raw=true)
+      
+7. After the creation of template is succeeded click on **Go to Resource**
+
+    ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/VMgotores.png?raw=true)
 
 
 ## Task 2: Add Public IP to the virtual machine
