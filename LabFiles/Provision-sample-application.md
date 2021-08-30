@@ -170,7 +170,25 @@ In this task, you will be deploying a virtual machine without public IP address 
      "outputs": {}
      }
  
+4. Make sure you change the Resource Group in template and verify the subnet name once, then **Save** the template.
 
+    - Resource group : **hands-on-lab-<inject key="DeploymentID" enableCopy="true"/>**
+
+    - Subnet Name : **Internal**
+
+    ![template](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/edit-template.png?raw=true)
+    
+5. Follow the instructions mentioned below to create the VM.
+
+    - Resource Group : **hands-on-lab-<inject key="DeploymentID" enableCopy="true"/>**
+
+    - User name : **demouser**
+
+    - Password : **Password.1!!**
+
+    - Click on **Review + Create**
+
+      ![template deployment](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/customdep1.png?raw=true)
 
 
 ## Task 2: Add Public IP to the virtual machine
