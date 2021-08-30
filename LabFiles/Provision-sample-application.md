@@ -421,9 +421,10 @@ In this task, you will create a Network Security Group and access for Applicatio
 
 In this task, you will be creating an exertal load balancer
     
-1  Search for the **Load balancer** from **Azure Portal**
+1. Search for the **Load balancer** from **Azure Portal** and select **Create**.
   
-  lo  //github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/LB.png?raw=true)
+  ![create Loadbalancer](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/LB%20create.png?raw=true)
+  
      
 7. Under the **basic** tab of Load Balancer enter the following commands:
 
