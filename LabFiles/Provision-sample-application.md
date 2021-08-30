@@ -66,11 +66,11 @@ In this task, you will associate the IP Address to Virtual Machine
 
 6. Click on **Associate** to associate the Public IP to VM and use the following instructions under **Associate Public IP address**
 
-   - Resource Type : Select **Network Interface** from drop down.
+   1. Resource Type : Select **Network Interface** from drop down.
 
-   - Network Interface : Select Network Interface of the VM.
+   2. Network Interface : Select Network Interface of the VM.
 
-   - Click on **OK**
+   3. Click on **OK**
 
    ![AssociatePIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/asociate-PIP1.png?raw=true)
    
