@@ -39,7 +39,137 @@ In this task, you will be deploying a virtual machine without public IP address 
 
     ![template deployment](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/customdep.png?raw=true)
     
-    ** hello
+3. Now copy the below code and paste it in work space
+
+     ```json
+     {
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "azureUsername": {
+            "type": "String"
+        },
+        "azurePassword": {
+            "type": "SecureString"
+        },
+        "deploymentID": {
+            "type": "String"
+        },
+        "InstallCloudLabsShadow": {
+            "defaultValue": "no",
+            "allowedValues": [
+                "yes",
+                "no"
+            ],
+            "type": "String"
+        }
+    },
+    "variables": {
+        "azureTenantID": "[subscription().tenantId]",
+        "azureSubscriptionID": "[subscription().subscriptionId]",
+        "resourceGroupName": "[resourceGroup().name]",
+        "location": "[resourceGroup().location]",
+        "availabilitySetName": "[concat('ANS-AS-',parameters('deploymentID'))]",
+        "availabilitySetPlatformFaultDomainCount": "2",
+        "jumphost": "[concat('VM1-',parameters('deploymentID'))]",
+        "adminUsername": "demouser",
+        "adminPassword": "Password.1!!",
+        "availabilitySetPlatformUpdateDomainCount": "5",
+        "networkInterfaceName1": "[concat(variables('jumphost'), '-nic')]",
+        "virtualMachineSize": "Standard_D2s_v3",
+        "vmPublicIpDnsName": "[concat('labvm',uniqueString(resourceGroup().id))]",
+        "apiVersion": "[providers('Microsoft.ServiceBus', 'namespaces').apiVersions[0]]",
+        "rgName": "Anusha",
+        "virtualNetworkName": "[concat('NSVnet-',parameters('deploymentID'))]",
+        "SubnetName": "Internal",
+        "subnetRef": "[resourceId(variables('rgName'),'Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('SubnetName'))]"
+    },
+    "resources": [
+        {
+            "type": "Microsoft.Network/networkInterfaces",
+            "apiVersion": "2016-09-01",
+            "name": "[variables('networkInterfaceName1')]",
+            "location": "[variables('location')]",
+            "dependsOn": [],
+            "properties": {
+                "ipConfigurations": [
+                    {
+                        "name": "ipconfig1",
+                        "properties": {
+                            "subnet": {
+                                "id": "[variables('subnetRef')]"
+                            },
+                            "privateIPAllocationMethod": "Dynamic"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Microsoft.Compute/virtualMachines",
+            "apiVersion": "2021-03-01",
+            "name": "[variables('jumphost')]",
+            "location": "[variables('location')]",
+            "dependsOn": [
+                "[concat('Microsoft.Network/networkInterfaces/', variables('networkInterfaceName1'))]",
+                "[concat('Microsoft.Compute/availabilitySets/', variables('availabilitySetName'))]"
+            ],
+            "properties": {
+                "hardwareProfile": {
+                    "vmSize": "[variables('virtualMachineSize')]"
+                },
+                "storageProfile": {
+                    "osDisk": {
+                        "createOption": "fromImage",
+                        "managedDisk": {
+                            "storageAccountType": "Premium_LRS"
+                        }
+                    },
+                    "imageReference": {
+                        "publisher": "MicrosoftWindowsServer",
+                        "offer": "WindowsServer",
+                        "sku": "2019-datacenter-gensecond",
+                        "version": "latest"
+                    }
+                },
+                "networkProfile": {
+                    "networkInterfaces": [
+                        {
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaceName1'))]"
+                        }
+                    ]
+                },
+                "osProfile": {
+                    "computerName": "[variables('jumphost')]",
+                    "adminUsername": "[variables('adminUsername')]",
+                    "adminPassword": "[variables('adminPassword')]",
+                    "windowsConfiguration": {
+                        "enableAutomaticUpdates": true,
+                        "provisionVmAgent": true
+                    }
+                },
+                "availabilitySet": {
+                    "id": "[resourceId('Microsoft.Compute/availabilitySets', variables('availabilitySetName'))]"
+                }
+            }
+        },
+        {
+            "type": "Microsoft.Compute/availabilitySets",
+            "apiVersion": "2019-07-01",
+            "name": "[variables('availabilitySetName')]",
+            "location": "[variables('location')]",
+            "sku": {
+                "name": "Aligned"
+            },
+            "properties": {
+                "platformFaultDomainCount": "[variables('availabilitySetPlatformFaultDomainCount')]",
+                "platformUpdateDomainCount": "[variables('availabilitySetPlatformUpdateDomainCount')]"
+            }
+        }
+    ],
+    "outputs": {}
+}
+ ```
 
 
 ## Task 2: Add Public IP to the virtual machine
