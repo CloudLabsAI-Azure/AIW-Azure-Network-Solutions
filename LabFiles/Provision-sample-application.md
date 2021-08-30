@@ -358,7 +358,7 @@ In this task, you will create a Network Security Group and access for Applicatio
      
 1. After running the command successfully, close the RDP and go back to the **Overview** of **VM-<inject key="DeploymentID" enableCopy="false"/>**.
 
-2. Now copy the **Public IP** of **VM-<inject key="DeploymentID" enableCopy="false"/>** and browse it in new tab.
+2. Now copy the **Public IP** of **VM1-<inject key="DeploymentID" enableCopy="false"/>** and browse it in new tab.
 
 3. You will get the web page as mentioned in below screenshot.
 
@@ -384,9 +384,23 @@ In this task, you will create a Network Security Group and access for Applicatio
      
 3. Enter the following instructions to create secondary VM
 
-      - need to add
+      1. Virtual machine name : **VM2-<inject key="DeploymentID" enableCopy="false"/>**
 
-     ![Secondary VM](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVM2.png?raw=true)
+      2. Availability options : Select **Availability set** from drop down
+
+      3. Availability Set : **ANS-AS-<inject key="DeploymentID" enableCopy="false"/>**
+
+      4. Username : **demouser**
+
+      5. Password : **Password.1!!**
+
+      6. Confirm Password : **Password.1!!**
+
+      7. Select **Next:Disks**
+
+     ![Secondary VM](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vm2-create.png?raw=true)
+     
+ 4. Leave everything as default in Disks tab and move to **Networking**
      
 4. Move to the **Networking** tab, under **Public IP** select **Create new** and make sure you select **SKU** as **Standard** for Public IP and click on **OK**.
 
