@@ -410,9 +410,20 @@ In this task, you will create a Network Security Group and access for Applicatio
 
     ![networking](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVM2-1.png?raw=true)
     
-7.  Select **Load Balancer** from **LabVM**.
+7. Noe select **Create**
 
-     ![LoadBalancer](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/LB.png?raw=true)
+     1[create VM2](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/create-vm2.png?raw=true)
+     
+     
+## Task 5.2 : Provision Load Balancing using External Load Balancer 
+
+### Overview
+
+In this task, you will be creating an exertal load balancer
+    
+1  Search for the **Load balancer** from **Azure Portal**
+  
+  lo  //github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/LB.png?raw=true)
      
 7. Under the **basic** tab of Load Balancer enter the following commands:
 
