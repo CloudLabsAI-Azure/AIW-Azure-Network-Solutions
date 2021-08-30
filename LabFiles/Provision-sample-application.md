@@ -171,20 +171,20 @@ In this task, you will create a Network Security Group and access for Applicatio
     ![webapp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/webapp.png?raw=true)
    
    
- ## Task 3 : Setup Load Balancing 
+ ## Task 5 : Setup Load Balancing 
  
- ### Task 3.1 : Provision Secondary VM
+ ### Task 5.1 : Provision Secondary VM
  
  
  ### Overview
  
     In this task you will be creating seconday VM under same Availability Set.
     
-1. From your **LABVM**, select **+ Create a resource**.
+1. From your **Azure Portal**, select **+ Create a resource**.
 
      ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
     
-2. Search for **Virtual Machine** and Click on **Create**
+2. Search for **Virtual Machine** and click on **Create**
 
      ![VM](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/VM.png?raw=true)
      
