@@ -242,7 +242,7 @@ In this task, you will associate the IP Address to Virtual Machine
 
    1. Resource Type : Select **Network Interface** from drop down.
 
-   2. Network Interface : Select Network Interface of the VM.
+   2. Network Interface : Select Network Interface of the newly deployed VM.
 
    3. Click on **OK**
 
