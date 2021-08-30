@@ -42,7 +42,7 @@ In this task, you will associate the IP Address to Virtual Machine
      
 3. Search for **Public IP Address** from the home page of **Azure Portal** and Click on **Create**
 
-    ![create Vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createPIP-1.png?raw=true)
+    ![create Vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/public-IP.png?raw=true)
     
 4. Enter the following information to create Public IP Address:
 
