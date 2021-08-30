@@ -38,6 +38,8 @@ In this task, you will be deploying a virtual machine without public IP address 
 2. Now select **Build your own template in the editor** from **Custom deployment** tab.
 
     ![template deployment](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/customdep.png?raw=true)
+    
+    ** hello
 
 
 ## Task 2: Add Public IP to the virtual machine
