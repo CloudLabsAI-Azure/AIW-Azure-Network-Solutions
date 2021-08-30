@@ -365,9 +365,9 @@ In this task, you will create a Network Security Group and access for Applicatio
     ![webapp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/webapp.png?raw=true)
    
    
- ## Task 5 : Setup Load Balancing 
+## Task 5 : Setup Load Balancing 
  
- ### Task 5.1 : Provision Secondary VM
+## Task 5.1 : Provision Secondary VM
  
  
  ### Overview
