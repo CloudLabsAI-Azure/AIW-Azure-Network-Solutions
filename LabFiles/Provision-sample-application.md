@@ -72,7 +72,7 @@ In this task, you will associate the IP Address to Virtual Machine
 
    3. Click on **OK**
 
-   ![AssociatePIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/asociate-PIP1.png?raw=true)
+   ![AssociatePIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Assopip.png?raw=true)
    
 8. Now navigate back to the Virtual Machine by selecting **Home** button and you can observe the Public Ip in **Overview** tab of Virtual Machine.
 
