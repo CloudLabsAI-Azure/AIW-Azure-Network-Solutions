@@ -252,12 +252,56 @@ In this task, you will associate the IP Address to Virtual Machine
 
    ![PIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/changed%20Public%20IP%20in%20VM1.png?raw=true)
    
-8. On Virtual Machine blade, under **Settings** Select **Networking** followed by **Add Inbound Port Rule**.
+   
+## Task 3: Configure NSGs/ASGs and allow Application Access
 
-   ![Add Inbound Port rule](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/inb.png?raw=true)
+
+### Overview
+
+In this task, you will create a Network Security Group and access for Application.
+
+1. From your **Azure Portal**, select **Network Security Group** and click on **Create**.
+
+   ![NSG](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/create%20nsg.png?raw=true)
+   
+2. On the **Basics** tab of  Create an network security group enter the following information, and select **Review + create**:
+
+   - Resource Group : Select your resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>"
+
+   - Name : **NSG-<inject key="DeploymentID" enableCopy="true"/>**.
+
+   ![NSG](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/nsg1.png?raw=true)
+   
+3. Monitor the deployment status by selecting **Notifications** Bell at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
+
+    ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/notifi1.png?raw=true)
+    
+4. To associate NSG to the deployed VM follow the below instructions
+
+     1. Select **Network Interface**
+
+     2. Click on **Associate**
+
+     3. Under the **Network interface associations** select **nic** of **VM1-<inject key="DeploymentID" enableCopy="false"/>**
+
+     4. Click on **Ok**
+
+      ![Associate NSG to VM](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/nic-nsg.png?raw=true)
+      
+8. On **Network Security Group** blade, under **Settings** Select **Inbound security Rules** and click on **Add**.
+
+9.  Under **Add inbound security rule**:
+
+     - Add **Destination Port Range** as **3389**
+   
+     - Name : **RDP**
+
+     - Click on **Add**   
+
+        ![Add RDP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-rdp.png?raw=true)
 
 
-9. Under **Add inbound security rule**:
+9. Repeat the step-8 to create **Port_80**
 
    - Add **Destination Port Range** as **80**
    
