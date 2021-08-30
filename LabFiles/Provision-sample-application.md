@@ -125,7 +125,7 @@ In this task, you will create a Network Security Group and access for Applicatio
    
 3. Monitor the deployment status by selecting **Notifications** Bell at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
 
-    ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/NSG2.png?raw=true)
+    ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/notifi1.png?raw=true)
     
 4. Now navigate back to the VM we created in task-1, click on **Connect** to connect RDP 
 
