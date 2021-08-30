@@ -111,11 +111,11 @@ In this task, you will associate the IP Address to Virtual Machine
 
 In this task, you will create a Network Security Group and access for Application.
 
-1. From your **LABVM**, select **Network Security Group** and Click on **Create**.
+1. From your **Azure Portal**, select **Network Security Group** and click on **Create**.
 
    ![NSG](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/create%20nsg.png?raw=true)
    
-2. On the Create an network security group blade, on the Basics tab, enter the following information, and select Review + create:
+2. On the **Basics** tab of  Create an network security group enter the following information, and select **Review + create**:
 
    - **Resource Group** : Select your resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>"
 
@@ -123,11 +123,11 @@ In this task, you will create a Network Security Group and access for Applicatio
 
    ![NSG](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createNSG.png?raw=true)
    
-3. Monitor the deployment status by selecting Notifications Bell at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select Go    to Resource.
+3. Monitor the deployment status by selecting **Notifications** Bell at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
 
     ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/NSG2.png?raw=true)
     
-4. Now go back to the VM we created in task-1, click on **Connect** to connect RDP 
+4. Now navigate back to the VM we created in task-1, click on **Connect** to connect RDP 
 
     ![connect](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/connect-RDP.png?raw=true)
     
@@ -147,7 +147,7 @@ In this task, you will create a Network Security Group and access for Applicatio
     
 8. Minimize the **Server Manager** tab.
 
-9. Click on the Windows icon at left-bottom corner and search for **Powershell ISE** then run it as Administrator.
+9. Click on the Windows icon at left-bottom corner and search for the **Powershell ISE** then run it as Administrator.
 
 10. Enter the below command in Powershell and Click on **Run**.
 
@@ -155,11 +155,18 @@ In this task, you will create a Network Security Group and access for Applicatio
 
      ![Run app](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/runcommand.png?raw=true)
      
-11. After running the command successfully, close the RDP and go back to the **Overview** of **VM-<inject key="DeploymentID" enableCopy="false"/>**.
+ ## Task-4 : Test Application 
+ 
+ 
+ ### Overview
+  
+  In this task you will check wheater the we are able to connect to the created application.
+     
+1. After running the command successfully, close the RDP and go back to the **Overview** of **VM-<inject key="DeploymentID" enableCopy="false"/>**.
 
-12. Now copy the **Public IP** of **VM-<inject key="DeploymentID" enableCopy="false"/>** and browse it in new tab.
+2. Now copy the **Public IP** of **VM-<inject key="DeploymentID" enableCopy="false"/>** and browse it in new tab.
 
-13. You will get the web page as mentioned in below screenshot.
+3. You will get the web page as mentioned in below screenshot.
 
     ![webapp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/webapp.png?raw=true)
    
