@@ -426,7 +426,7 @@ In this task, you will be creating an exertal load balancer
   ![create Loadbalancer](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/LB%20create.png?raw=true)
   
      
-7. Under the **basic** tab of Load Balancer enter the following commands:
+2. Under the **basic** tab of Load Balancer enter the following commands:
 
      - Resource Group : **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**
 
@@ -436,7 +436,7 @@ In this task, you will be creating an exertal load balancer
 
      - Click on **Frontend IP Configuration**
 
-        ![Basic LB](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Create%20LB.png?raw=true)
+        ![Basic LB](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/creatingLBB.png?raw=true)
         
 8.  Click on **Add a frontend IP**
 
@@ -466,6 +466,50 @@ In this task, you will be creating an exertal load balancer
     
 12. Follow the below instructions to create **Backend Pool**
 
-     - **Name** : **BackendPool-<inject key="DeploymentID" enableCopy="false"/>**
+     - **Name** : **BackendPool-<inject key="DeploymentID" enableCopy="true"/>**
 
-     - **Virtual Network** : Select the created Vnet **
+     - **Virtual Network** : Select the created Vnet **NSVnet-<inject key="DeploymentID" enableCopy="true"/>** from drop down list
+
+     -  Select **Add** to create add Virtual machines.
+
+      ![add vm at backendpool](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/backendpoool.png?raw=true)
+      
+ 13. To add the virtual machines in the backend pool, select both the VMs and click on **Add** 
+
+     ![Add Vm at backendpool](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add%202%20vms.png?raw=true)
+     
+ 14. Now select existing **Add** button to **Add backend pool**
+
+      ![add backendpool](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add%20on%20add.png?raw=true)
+      
+15. After adding the virtual machines in the backend pool you can observe the screen as mentioned in below screenshot, after reviewing click on **Inbound rules**.
+
+     1[review backendpools](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/reviewbackendpool.png?raw=true)
+     
+16. To create load balancing rule, click on **Add a load balancing rule** and following the below mentioned instructions:
+
+     - Name : **LoadBalancing-<inject key="DeploymentID" enableCopy="true"/>**
+
+     - Frontend IP address : **FIP-<inject key="DeploymentID" enableCopy="true"/>** from drop down list.
+
+     - Port : **80**
+
+     - Backend Port : **80**
+
+     - Backend Pool : **BackendPool-<inject key="DeploymentID" enableCopy="true"/>** from drop down list.
+
+     ![loadbalincing](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Loadbalancing.png?raw=true)
+     
+     - Health Probe: To create health probe click on **create new** and mention **Name** as **HealthProbe-<inject key="DeploymentID" enableCopy="true"/>**, **Protocol** as         **HTTP** then select **Ok**
+
+       ![health probe](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/healthprobe.png?raw=true)
+       
+      - TCP reset: **Enabled**
+
+      - Select **Add**
+
+17. After adding Load balancing rule click on **Review + Create** and select **Create**
+
+      ![create lb](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/addedLB.png?raw=true)
+
+     
