@@ -32,13 +32,13 @@ In this task, you will create a virtual network
      
 3. On the **Create virtual network** blade, on the **Basic** tab, enter the following information:
 
-    -  **Subscription**: **Select your subscription**.
+    -  Subscription: **Select your subscription**.
   
-    -  **Resource group**: Select resource group from drop down list **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** .
+    -  Resource group: Select resource group from drop down list **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** .
 
-    -  **Name**: **NSVnet-<inject key="DeploymentID" enableCopy="false"/>**
+    -  Name: **NSVnet-<inject key="DeploymentID" enableCopy="false"/>**
 
-    -  **Location**: **East US**
+    -  Location: **East US**
 
 4.  Select **Next: IP Addresses**
 
@@ -79,11 +79,11 @@ In this task, you will create a Subnet for different scenarios like AVD, DMZ, In
       
 3. Under **Add Subnet** 
 
-    - **Name** : **AVD**
-    - **Subnet Address Range** : **10.0.0.0/24**
+    - Name : **AVD**
+    - Subnet Address Range : **10.0.0.0/24**
     - Select **Save**
 
-    ![AVD](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/AVD.png?raw=true)
+    ![AVD](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/AVD1.png?raw=true)
     
 4. Repeat the step-2 for creating **DMZ** subnet
 
