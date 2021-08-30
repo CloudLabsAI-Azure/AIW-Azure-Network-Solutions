@@ -121,7 +121,7 @@ In this task, you will create a Network Security Group and access for Applicatio
 
    - Name : **NSG-<inject key="DeploymentID" enableCopy="false"/>**.
 
-   ![NSG](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createNSG.png?raw=true)
+   ![NSG](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/nsg1.png?raw=true)
    
 3. Monitor the deployment status by selecting **Notifications** Bell at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
 
