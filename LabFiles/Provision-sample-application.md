@@ -400,17 +400,17 @@ In this task, you will create a Network Security Group and access for Applicatio
 
      ![Secondary VM](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vm2-create.png?raw=true)
      
- 4. Leave everything as default in Disks tab and move to **Networking**
+4. Leave everything as default in Disks tab and move to **Networking**
      
-4. Move to the **Networking** tab, under **Public IP** select **Create new** and make sure you select **SKU** as **Standard** for Public IP and click on **OK**.
+5. After moving to the **Networking** tab, under **Public IP** select **Create new** and make sure you select **SKU** as **Standard** for Public IP and click on **OK**.
 
-    ![Standard IP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/stabdardIP-VM2.png?raw=true)
+    ![Standard IP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vm2-ip.png?raw=true)
      
-5. Select Subnet as **Internal** and click on **Review and Create**.
+6. Select Subnet as **Internal** and click on **Review and Create**.
 
     ![networking](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVM2-1.png?raw=true)
     
-6.  Select **Load Balancer** from **LabVM**.
+7.  Select **Load Balancer** from **LabVM**.
 
      ![LoadBalancer](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/LB.png?raw=true)
      
