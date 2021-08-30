@@ -41,8 +41,8 @@ In this task, you will be deploying a virtual machine without public IP address 
     
 3. Now copy the below code and paste it in work space
 
-     ```json
-     {
+    ```json
+    {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
@@ -167,9 +167,10 @@ In this task, you will be deploying a virtual machine without public IP address 
             }
         }
     ],
-    "outputs": {}
-}
- ```
+     "outputs": {}
+     }
+ 
+
 
 
 ## Task 2: Add Public IP to the virtual machine
