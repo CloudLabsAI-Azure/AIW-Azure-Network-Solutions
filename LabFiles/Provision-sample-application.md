@@ -62,7 +62,7 @@ In this task, you will associate the IP Address to Virtual Machine
    
 5. Monitor the deployment status by selecting **Notifications** Bell at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select  **Go to Resource**.
 
-  ![Create IP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/GO-to-resource-pip1.png?raw=true)
+  ![Create IP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/notifi.png?raw=true)
 
 6. Click on **Associate** to associate the Public IP to VM and use the following instructions under **Associate Public IP address**
 
