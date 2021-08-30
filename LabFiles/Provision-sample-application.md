@@ -511,5 +511,16 @@ In this task, you will be creating an exertal load balancer
 17. After adding Load balancing rule click on **Review + Create** and select **Create**
 
       ![create lb](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/addedLB.png?raw=true)
+      
+      
+##  Task- 5.3 : Test LB & VM failover.
 
-     
+1. After the deployment of Load balancer got succeeded, select on **Go to the resouce**
+
+    ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/click%20on%20goto.png?raw=true)
+    
+2. Now you can find the same **Public Ip address** for Load balancer and previously deployed 2 virtual machines.
+
+3. Copy the public Ip address and browse it in new tab, you can find the web page we had deployed in task-4
+
+     ![web page](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/webapp.png?raw=true)
