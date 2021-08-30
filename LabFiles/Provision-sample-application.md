@@ -25,6 +25,17 @@ This exercise includes the following tasks:
        *	 Test LB & VM failover.
 
 
+## Task 1: Deploy VM using pre-built ARM Template in existing network. 
+
+### Overview
+
+In this task, you will be deploying a virtual machine without public IP address using ARM template.
+
+1. Search for the **Templates** in the search box from **Azure Portal** and select **Template deployment (deploy using custom templates)** from **Market Place**.
+
+    ![template](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/template.png?raw=true)
+
+
 ## Task 2: Add Public IP to the virtual machine
 
 ### Overview
