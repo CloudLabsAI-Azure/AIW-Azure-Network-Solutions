@@ -46,19 +46,19 @@ In this task, you will associate the IP Address to Virtual Machine
     
 4. Enter the following information to create Public IP Address:
 
-   - SKU  : **Standard**
+   1 SKU  : **Standard**
 
-   - Tier : **Regional**
+   2 Tier : **Regional**
 
-   - Name : **PublicIP1-<inject key="DeploymentID" enableCopy="false"/>**
+   3 Name : **PublicIP1-<inject key="DeploymentID" enableCopy="false"/>**
 
-   - Choose your **Subscription Group**
+   4 Choose your **Subscription Group**
 
-   - Resource Group : **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**
+   5 Resource Group : **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**
 
-   - Click on **Create**.
+   6 Click on **Create**.
 
-   ![createIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createPIP1.png?raw=true)
+   ![createIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/cete-pip.png?raw=true)
    
 5. Monitor the deployment status by selecting **Notifications** Bell at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select  **Go to Resource**.
 
