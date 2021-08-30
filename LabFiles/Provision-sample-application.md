@@ -74,16 +74,16 @@ In this task, you will associate the IP Address to Virtual Machine
 
    ![AssociatePIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Assopip.png?raw=true)
    
-8. Now navigate back to the Virtual Machine by selecting **Home** button and you can observe the Public Ip in **Overview** tab of Virtual Machine.
+7. Now navigate back to the Virtual Machine by selecting **Home** button and you can observe the Public Ip in **Overview** tab of Virtual Machine.
 
    ![PIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/changed%20Public%20IP%20in%20VM1.png?raw=true)
    
-9. On Virtual Machine blade, under **Settings** Select **Networking** followed by **Add Inbound Port Rule**.
+8. On Virtual Machine blade, under **Settings** Select **Networking** followed by **Add Inbound Port Rule**.
 
-   ![Add Inbound Port rule](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-inbound-port-vm1.png?raw=true)
+   ![Add Inbound Port rule](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/inb.png?raw=true)
 
 
-10. Under **Add inbound security rule**:
+9. Under **Add inbound security rule**:
 
    - Add **Destination Port Range** as **80**
    
@@ -93,7 +93,7 @@ In this task, you will associate the IP Address to Virtual Machine
 
    ![port_80](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-port80.png?raw=true)
   
-11. Repeat the step-9 to create **Port_443**
+10. Repeat the step-9 to create **Port_443**
 
     - Add **Destination Port Range** as **443**
 
