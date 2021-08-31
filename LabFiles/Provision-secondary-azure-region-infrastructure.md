@@ -177,4 +177,4 @@ In this task you will be creating Peering for the Vnet.
      
 11. Use the same credentials as in step 6 to connect to the Remote Desktop App.
 
-12. If you are able to conenct to the VM from Private IP Address, it shows that you have successfully created the Inter VM Connectivity on private network.
+12. If you can connect to the VM using a private IP address, you've successfully set up inter-VM connectivity on your private network.
