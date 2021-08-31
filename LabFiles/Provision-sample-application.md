@@ -18,11 +18,11 @@ This exercise includes the following tasks:
 
 *	Setup Load Balancing :
 
-       *	 Provision Secondary VM.
+     * Provision Secondary VM.
        
-       *	 Provision Load Balancing using External Load Balancer. 
+     * Provision Load Balancing using External Load Balancer. 
        
-       *	 Test LB & VM failover.
+     * Test LB & VM failover.
 
 
 ## Task 1: Deploy VM using pre-built ARM Template in existing network. 
@@ -31,7 +31,7 @@ This exercise includes the following tasks:
 
 In this task, you will be deploying a virtual machine without public IP address using ARM template.
 
-1. Search for the **Templates** in the search box from **Azure Portal** and select **Template deployment (deploy using custom templates)** from **Market Place**.
+1. Search for **templates** in the azure portal's search box, then pick **Template deployment (deploy using custom templates)** under market place..
 
     ![template](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/template.png?raw=true)
     
