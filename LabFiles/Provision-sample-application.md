@@ -199,7 +199,7 @@ In this task, you will be deploying a virtual machine without public IP address 
       
 7. After the template has been successfully created, click **Go to Resource**.
 
-    ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/VMgotores.png?raw=true)
+    ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vmgoto.png?raw=true)
 
 
 ## Task 2: Add Public IP to the virtual machine
@@ -209,13 +209,13 @@ In this task, you will be deploying a virtual machine without public IP address 
 In this task, you will associate the Public IP Address to Virtual Machine under same Vnet.
 
 
-1. Navigate to the resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** and select the virtual machine **VM1-<inject key="DeploymentID" enableCopy="false"/>**
+1. Navigate to the resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** and select the virtual machine **VM1-<inject key="DeploymentID" enableCopy="false"/>** from **Overview** tab
 
-   ![vm1.1](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/VM1.1.png?raw=true)
+   ![vm1.1](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/selectVM.png?raw=true)
    
-2. You can observe that the virtual machine doesn't have a public IP address on the **Overview** page.
+2. You can observe that the virtual machine doesn't have a public IP address from the **Overview** tab.
 
-   ![noIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/observenoip.png?raw=true)
+   ![noIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/nopublicIPadd.png?raw=true)
    
 3. Navigate to the **Azure Portal** by selecting the **Home** from top left corner and then select **+ Create a resource**.
 
