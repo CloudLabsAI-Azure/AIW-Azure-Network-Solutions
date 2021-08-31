@@ -4,7 +4,7 @@
  
  ## Overview
  
- In this task you'll establish a VNet in Region-2 (West US) and deploy a VM within it . You'll also configure Vnet Peering in the next step to test inter-VM connectivity on your private network.
+ In this exercise you'll create a VNet in Region-2 and deploy a VM within the Vnet. You'll also configure Peering connections between the Vnets and test inter-VM connectivity on your private network.
  
  This exercise includes the following tasks:
  
@@ -21,7 +21,7 @@
 
 ### Overview
 
-In this task, you will be creating a virtual network in Region-2 (West US)
+In this task, you will be creating a virtual network in Region-2 
 
 1. Select **Show portal menu** from the upper left corner of the Azure Portal's **Home** page and then **Create a resource**.
 
