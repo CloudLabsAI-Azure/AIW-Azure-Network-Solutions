@@ -203,10 +203,10 @@ In this task, you will be deploying a virtual machine without public IP address 
 
 ### Overview
 
-In this task, you will associate the IP Address to Virtual Machine
+In this task, you will associate the Public IP Address to Virtual Machine under same Vnet.
 
 
-1. Navigate to the newly deployed virtual machine and notice there is no public ip associated.
+1. Navigate to the resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** and select the virtual machine **VM-<inject key="DeploymentID" enableCopy="false"/>**
 
    ![noIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/NoIp-VM1.png?raw=true)
    
