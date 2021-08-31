@@ -30,7 +30,7 @@ In this task, you will create a virtual network
 
      ![Create Resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/netvnet.png?raw=true)
      
-3. On the **Basics** tab of **Create virtual network**, enter the following information:
+3. On the **Basics** tab of **Create virtual network**, enter the following information and select **Review + Create**.
 
     -  Subscription: **Select your subscription**.
   
@@ -40,11 +40,7 @@ In this task, you will create a virtual network
 
     -  Location: **East US**
 
-4.  Select **Next: IP Addresses**
-
-     ![move to IP address](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVnet.png?raw=true)
-    
-5.  Leave everything as default for now.
+     ![move to IP address](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vnet.png?raw=true)
 
 6.  Select **Review + Create**.
 
