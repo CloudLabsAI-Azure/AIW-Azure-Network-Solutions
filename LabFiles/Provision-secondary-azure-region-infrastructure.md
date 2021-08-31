@@ -113,7 +113,7 @@ In this task you will be creating Peering for the Vnet.
    
 2. Select **Peerings** under Settings on the left and select **Add**.
 
-     1[peering](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/peering.png?raw=true)
+     ![peering](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/peering.png?raw=true)
      
 3. Set the following configuration for the new peering. Select Add to create the peering.
 
