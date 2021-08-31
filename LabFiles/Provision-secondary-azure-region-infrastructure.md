@@ -109,7 +109,7 @@ In this task you will be creating Peering for the Vnet.
 
 1. From the **Overview** tab of **SampleVM-<inject key="DeploymentID" enableCopy="false"/>**, select **Virtual network**
 
-     ![select vnet](![image](https://user-images.githubusercontent.com/83349577/131581610-832f3bc9-8ade-41e7-ba32-c164739b055b.png)
+     ![select vnet]([image](https://user-images.githubusercontent.com/83349577/131581610-832f3bc9-8ade-41e7-ba32-c164739b055b.png)
    
 2. Select **Peerings** under Settings on the left and select **Add**.
 
