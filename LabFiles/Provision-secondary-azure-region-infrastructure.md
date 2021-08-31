@@ -117,19 +117,19 @@ In this task you will be creating Peering for the Vnet.
      
 3. Set the following configuration for the new peering. Select Add to create the peering.
 
-    - Peering link name (This virtual network): VNETPeering_NSVnet1-NSVnet
+    - Peering link name (This virtual network): **VNETPeering_NSVnet1-NSVnet**
 
-    - Traffic to remote virtual network: Allow (default)
+    - Traffic to remote virtual network: **Allow (default)**
 
-    - Traffic forwarded from remote virtual network: Allow (default)
+    - Traffic forwarded from remote virtual network: **Allow (default)**
 
-    - Peering link name (Remote virtual network: VNETPeering_NSVnet-NSVnet1
+    - Peering link name (Remote virtual network: **VNETPeering_NSVnet-NSVnet1**
 
-    - Virtual Network: WGVNet2
+    - Virtual Network: **WGVNet2**
 
-    - Traffic to remote virtual network: Allow (default)
+    - Traffic to remote virtual network: **Allow (default)**
 
-    - Traffic forwarded from remote virtual network: Allow (default)
+    - Traffic forwarded from remote virtual network: **Allow (default)**
 
        ![peering](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/peering1.png?raw=true)
 
