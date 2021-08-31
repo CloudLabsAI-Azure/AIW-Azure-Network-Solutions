@@ -31,7 +31,7 @@ This exercise includes the following tasks:
 
 In this task, you will be deploying a virtual machine without public IP address using ARM template.
 
-1. Search for **templates** in the azure portal's search box, then pick **Template deployment (deploy using custom templates)** under market place..
+1. Search for **templates** in the azure portal's search box, then pick **Template deployment (deploy using custom templates)** under market place.
 
     ![template](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/template.png?raw=true)
     
@@ -39,7 +39,7 @@ In this task, you will be deploying a virtual machine without public IP address 
 
     ![template deployment](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/customdep.png?raw=true)
     
-3. Now copy the below code and paste it in work space
+3. Now copy and paste the code mentioned below into the editor.
 
     ```json
     {
@@ -170,7 +170,7 @@ In this task, you will be deploying a virtual machine without public IP address 
      "outputs": {}
      }
  
-4. Make sure you change the Resource Group in template and verify the subnet name once, then **Save** the template.
+4. Change the Resource Group in the template and double-check the subnet name, then **Save** the template.
 
     - Resource group : **hands-on-lab-<inject key="DeploymentID" enableCopy="true"/>**
 
@@ -178,7 +178,7 @@ In this task, you will be deploying a virtual machine without public IP address 
 
     ![template](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/edit-template.png?raw=true)
     
-5. Follow the instructions mentioned below to create the VM.
+5. Enter the following information to create the VM.
 
     - Resource Group : **hands-on-lab-<inject key="DeploymentID" enableCopy="true"/>**
 
@@ -194,7 +194,7 @@ In this task, you will be deploying a virtual machine without public IP address 
 
       ![template deployment](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/customdep2.png?raw=true)
       
-7. After the creation of template is succeeded click on **Go to Resource**
+7. After the template has been successfully created, click **Go to Resource**.
 
     ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/VMgotores.png?raw=true)
 
