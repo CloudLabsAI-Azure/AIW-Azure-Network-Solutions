@@ -540,4 +540,4 @@ In this task, you will be creating an exertal load balancer
      
 4. To test for VM failover, go back to **VM1-<inject key="DeploymentID" enableCopy="false"/>** in the resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="true"/>** and deallocate the VM  by clicking on **Stop**.
 
-5. Navigate to the where you accessed the public IP address and refresh the page.
+5. Navigate back to the browser where you accessed the public IP address and refresh the page.
