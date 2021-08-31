@@ -97,3 +97,37 @@ In this task you will be creating Sample VM in virtual network which was created
 7. Wait until the Virtual Machine has been created successfully and select **Go to Resource**
 
      ![goto](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/sampleVMgoto.png?raw=true)
+
+
+## Task-3 : Configure VNET Peering
+
+### Overview
+
+In this task you will be creating Peering for the Vnet.
+
+1. From the **Overview** tab of **SampleVM-<inject key="DeploymentID" enableCopy="false"/>**, select **Virtual network**
+
+     ![select vnet](![image](https://user-images.githubusercontent.com/83349577/131581610-832f3bc9-8ade-41e7-ba32-c164739b055b.png)
+   
+2. Select **Peerings** under Settings on the left and select **Add**.
+
+     1[peering](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/peering.png?raw=true)
+     
+3. Set the following configuration for the new peering. Select Add to create the peering.
+
+    - Peering link name (This virtual network): VNETPeering_NSVnet1-NSVnet
+
+    - Traffic to remote virtual network: Allow (default)
+
+    - Traffic forwarded from remote virtual network: Allow (default)
+
+    - Peering link name (Remote virtual network: VNETPeering_NSVnet-NSVnet1
+
+    - Virtual Network: WGVNet2
+
+    - Traffic to remote virtual network: Allow (default)
+
+    - Traffic forwarded from remote virtual network: Allow (default)
+
+       ![peering](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/peering1.png?raw=true)
+
