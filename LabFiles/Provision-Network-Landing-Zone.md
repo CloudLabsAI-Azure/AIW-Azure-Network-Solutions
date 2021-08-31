@@ -42,11 +42,9 @@ In this task, you will create a virtual network
 
      ![move to IP address](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vnet.png?raw=true)
 
-6.  Select **Review + Create**.
-
 7.  Review the configuration and select **Create**.
 
-     ![VNet Creation](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/VN3.png?raw=true)
+     ![VNet Creation](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVnet1.png?raw=true)
 
 8.  Monitor the deployment status by selecting **Notifications Bell** at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
 
