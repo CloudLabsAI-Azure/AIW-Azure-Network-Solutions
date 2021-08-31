@@ -15,64 +15,88 @@ This exercise includes the following tasks:
 
 ## Task 1: Provision Virtual Network 
 
-1.  From your **LABVM**, connect to the Azure portal, select **+ Create a resource**, and in the **Search the Marketplace** box, search for and select **Virtual network** and select **Create**.
+### Overview
+
+In this task, you will create a virtual network
+
+
+
+
+1.  From the **Azure portal**, select **+ Create a resource**.
 
      ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
      
-2. On the **Create virtual network** blade, on the **Basic** tab, enter the following information:
+2.  In the **Search the Marketplace** box, choose **Networking**, then **Virtual network**, and then **Create**. 
+
+     ![Create Resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/netvnet.png?raw=true)
+     
+3. On the **Basics** tab of **Create virtual network**, enter the following information and select **Review + Create**.
 
     -  Subscription: **Select your subscription**.
   
-    -  Resource group: Select resource group from drop down list.
+    -  Resource group: Select resource group from drop down list **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** .
 
-    -  Name: **NSVnet**
+    -  Name: **NSVnet-<inject key="DeploymentID" enableCopy="false"/>**
 
     -  Location: **East US**
 
-3.  Select **Next: IP Addresses**
+     ![move to IP address](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vnet.png?raw=true)
 
-     ![move to IP address](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/VN2.png?raw=true)
-    
-4.  Leave everything as default for now.
+7.  Review the configuration and select **Create**.
 
-5.  Select **Review + Create**.
+     ![VNet Creation](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVnet1.png?raw=true)
 
-6.  Review the configuration and select **Create**.
+8.  Monitor the deployment status by selecting **Notifications Bell** icon at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
 
-7.  Monitor the deployment status by selecting **Notifications Bell** at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
+     ![vnet notification](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/gotoforVnet.png?raw=true)
 
-8.  Under Virtual Network blade select **Address Space**
+## Task 2: Provision of subnets
+  
+### Overview
+
+In this task, you will create a Subnet for different scenarios like AVD, DMZ, Internal.
+
+
+
+
+1.  Select **Address Space** from the left-hand menu in the newly established VNet.
     
      - Add **Address Space** : **10.0.0.0/20**
 
      -  Click on **Save**
 
-     ![Address space](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/AS1.png?raw=true)
+     ![Address space](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/address.png?raw=true)
      
-9.  Now select **Subnets** from NSVnet blade and Click on **+Subnet**
+2.  After adding the Address space successfully, now select **Subnets** from NSVnet-<inject key="DeploymentID" enableCopy="false"/> blade and Click on **+Subnet**
 
       ![Subnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/subnet.png?raw=true)
       
-10. Under **Add Subnet** 
+3. Provide the following instructions under **Add Subnet** to create **AVD** subnet.
 
-    - **Name** : **AVD**
-    - **Subnet Address Range** : **10.0.0.0/24**
-    - Select **Save**
+    1 Name : **AVD**
+    
+    2 Subnet Address Range : **10.0.1.0/24**
+    
+    3 Select **Save**
 
     ![AVD](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/AVD.png?raw=true)
     
-11. Repeat the step-9 for creating **DMZ** subnet
+4. Repeat the step-2 for creating **DMZ** subnet and provide the below mentioned instructions.
 
-    - **Name** : **DMZ**
-    - **Subnet Address Range** : **10.0.2.0/25**
-    - Select **Save**
+    1 **Name** : **DMZ**
+    
+    2 **Subnet Address Range** : **10.0.2.0/24**
+    
+    3 Select **Save**
 
     ![DMZ](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/DMZ.png?raw=true)
     
-12. Repeat the step-9 for creating **Internal** subnet
+5. Repeat the step-2 for creating **Internal** subnet and provide the below mentioned instructions.
 
-    - **Name** : **Internal**
-    - **Subnet Address Range** : **10.1.2.0/24** (Make sure that Subnet Address Range is within the range of default Address Space of VNet)
-    - Select **Save**
+    1 **Name** : **Internal**
     
-    ![Internal](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Internal.png?raw=true)
+    2 **Subnet Address Range** : **10.0.3.0/24** 
+    
+    3 Select **Save**
+    
+    ![Internal](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Internnal.png?raw=true)
