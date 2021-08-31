@@ -131,3 +131,36 @@ In this task you will be creating Peering for the Vnet.
 
        ![peering](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/peering1.png?raw=true)
 
+
+
+## Task-4 : Validate Inter VM Connectivity on private network. 
+
+1. Now go back to the **Home** page of Azure Portal and select **Resource Group**
+
+     ![reosurce group](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/resourcegroup.png?raw=true)
+     
+2. Select **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**, then select **SampleVM-<inject key="DeploymentID" enableCopy="false"/>** from **Overview** tab of resource group.
+
+   ![sample vm](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/selectsmaplevm.png?raw=true)
+   
+3. From the **Overview** of SampleVM-<inject key="DeploymentID" enableCopy="false"/>, select **Connect** to connect the VM to **RDP**
+
+     ![vmto rdp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/connectsamplevm.png?raw=true)
+     
+4. Select **Download RDP File** to download the RDP file, and then open it once it has been downloaded.
+
+     ![rdp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/download%20rdp.png?raw=true)
+     
+5. When you are prompted with Remote Desktop Connection box, select **Connect**
+
+     ![connect](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/connect.png?raw=true)
+     
+6. To login into the Virtual Machine use these credentials:
+
+     - Username: **demouser**
+
+     - Password : **Password.1!!**
+
+7. If you are asked with a dialogue box after entering your credentials, select **Yes**.
+
+8. Now, from your Azure Portal navigate to **VM2-<inject key="DeploymentID" enableCopy="false"/>** and copy the **Private Ip address** from **Overview** tab.
