@@ -84,10 +84,10 @@ In this task, you will create a Subnet for different scenarios like AVD, DMZ, In
 4. Repeat the step-2 for creating **DMZ** subnet
 
     - **Name** : **DMZ**
-    - **Subnet Address Range** : **10.0.2.0/25**
+    - **Subnet Address Range** : **10.0.2.0/24**
     - Select **Save**
 
-    ![DMZ](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/DMZ1.png?raw=true)
+    ![DMZ](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/DMZ.png?raw=true)
     
 5. Repeat the step-3 for creating **Internal** subnet
 
