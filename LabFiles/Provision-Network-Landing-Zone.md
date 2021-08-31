@@ -74,7 +74,9 @@ In this task, you will create a Subnet for different scenarios like AVD, DMZ, In
 3. Under **Add Subnet** 
 
     1 Name : **AVD**
+    
     2 Subnet Address Range : **10.0.1.0/24**
+    
     3 Select **Save**
 
     ![AVD](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/AVD.png?raw=true)
