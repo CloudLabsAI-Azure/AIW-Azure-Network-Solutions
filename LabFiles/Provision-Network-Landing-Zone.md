@@ -65,9 +65,9 @@ In this task, you will create a Subnet for different scenarios like AVD, DMZ, In
 
      -  Click on **Save**
 
-     ![Address space](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/nsvnet.png?raw=true)
+     ![Address space](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/address.png?raw=true)
      
-2.  Now select **Subnets** from NSVnet-<inject key="DeploymentID" enableCopy="false"/> blade and Click on **+Subnet**
+2.  After adding the Address space successfully, now select **Subnets** from NSVnet-<inject key="DeploymentID" enableCopy="false"/> blade and Click on **+Subnet**
 
       ![Subnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/subnet.png?raw=true)
       
