@@ -42,7 +42,7 @@ In this task, you will create a virtual network
 
 4.  Select **Next: IP Addresses**
 
-     ![move to IP address](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vnetcrete.png?raw=true)
+     ![move to IP address](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVnet.png?raw=true)
     
 5.  Leave everything as default for now.
 
