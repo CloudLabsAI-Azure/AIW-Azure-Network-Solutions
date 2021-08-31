@@ -279,7 +279,7 @@ In this task, you will create a Network Security Group and access for Applicatio
    
 2. On the **Basics** tab of  Create an network security group enter the following information, and select **Review + create**:
 
-   - Resource Group : Select your resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>"
+   - Resource Group : Select your resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**
 
    - Name : **NSG-<inject key="DeploymentID" enableCopy="true"/>**.
 
