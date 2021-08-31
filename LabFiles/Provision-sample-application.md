@@ -170,25 +170,28 @@ In this task, you will be deploying a virtual machine without public IP address 
      "outputs": {}
      }
  
-4. Change the Resource Group in the template and double-check the subnet name, then **Save** the template.
+4. Replace the Resource Group name in the template with the below mentioned RGName and double-check the subnet name, then **Save** the template.
 
-    - Resource group : **hands-on-lab-<inject key="DeploymentID" enableCopy="true"/>**
+    - rgName : **hands-on-lab-<inject key="DeploymentID" enableCopy="true"/>**
 
     - Subnet Name : **Internal**
 
-    ![template](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/edit-template.png?raw=true)
+    ![template](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/rgName.png?raw=true)
     
 5. Enter the following information to create the VM.
 
-    - Resource Group : **hands-on-lab-<inject key="DeploymentID" enableCopy="true"/>**
+    1 Resource Group : **hands-on-lab-<inject key="DeploymentID" enableCopy="true"/>**
 
-    - User name : **demouser**
+    2 User name : **demouser**
 
-    - Password : **Password.1!!**
+    3 Password : **Password.1!!**
+    
+    4. Deployment ID: **<inject key="DeploymentID" enableCopy="true"/>**
 
-    - Click on **Review + Create**
 
-      ![template deployment](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/customdep1.png?raw=true)
+    5 Click on **Review + Create**
+
+      ![template deployment](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/arm.png?raw=true)
       
  6. Review the template and select **Create**
 
