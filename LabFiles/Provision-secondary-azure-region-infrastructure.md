@@ -94,4 +94,4 @@ In this task you will be creating Sample VM in virtual network which was created
 
      ![create](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createSamplevm.png?raw=true)
 
-     
+7. Wait until the Virtual Machine has been created successfully and select **Go to Resource**
