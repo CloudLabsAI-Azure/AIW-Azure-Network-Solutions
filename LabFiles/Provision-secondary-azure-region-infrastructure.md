@@ -164,3 +164,17 @@ In this task you will be creating Peering for the Vnet.
 7. If you are asked with a dialogue box after entering your credentials, select **Yes**.
 
 8. Now, from your Azure Portal navigate to **VM2-<inject key="DeploymentID" enableCopy="false"/>** and copy the **Private Ip address** from **Overview** tab.
+
+     ![privateip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/privateIp.png?raw=true)
+     
+9. Now, in the virtual machine that is connected to RDP, look for the **Remote desktop app** and double-click on it to open.
+
+     ![rdp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/rdpconnection.png?raw=true)
+ 
+10. Now, provide the **Private IP address** that you copied in the step-8 and try to connect to **Remote Desktop App**
+
+     ![private](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/connecprivate.png?raw=true)
+     
+11. Use the same credentials as in step 6 to connect to the Remote Desktop App.
+
+12. If you are able to conenct to the VM from Private IP Address, it shows that you have successfully created the Inter VM Connectivity on private network.
