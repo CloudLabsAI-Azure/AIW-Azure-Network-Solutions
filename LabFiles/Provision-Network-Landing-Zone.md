@@ -58,20 +58,12 @@ In this task, you will create a Subnet for different scenarios like AVD, DMZ, In
 
 
 
-
-1.  Select **Address Space** from the left-hand menu in the newly established VNet.
-    
-     - Add **Address Space** : **10.0.0.0/20**
-
-     -  Click on **Save**
-
-     ![Address space](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/address.png?raw=true)
      
-2.  After adding the Address space successfully, now select **Subnets** from NSVnet-<inject key="DeploymentID" enableCopy="false"/> blade and Click on **+Subnet**
+1.  Select **Subnets** from NSVnet-<inject key="DeploymentID" enableCopy="false"/> blade and Click on **+Subnet**
 
       ![Subnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/subnet.png?raw=true)
       
-3. Provide the following instructions under **Add Subnet** to create **AVD** subnet.
+2. Provide the following instructions under **Add Subnet** to create **AVD** subnet.
 
     1 Name : **AVD**
     
@@ -81,7 +73,7 @@ In this task, you will create a Subnet for different scenarios like AVD, DMZ, In
 
     ![AVD](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/AVD1.png?raw=true)
     
-4. Repeat the step-2 for creating **DMZ** subnet and provide the below mentioned instructions.
+3. Repeat the step-1 for creating **DMZ** subnet and provide the below mentioned instructions.
 
     1 **Name** : **DMZ**
     
@@ -91,7 +83,7 @@ In this task, you will create a Subnet for different scenarios like AVD, DMZ, In
 
     ![DMZ](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/DMZ1.png?raw=true)
     
-5. Repeat the step-2 for creating **Internal** subnet and provide the below mentioned instructions.
+4. Repeat the step-1 for creating **Internal** subnet and provide the below mentioned instructions.
 
     1 **Name** : **Internal**
     
