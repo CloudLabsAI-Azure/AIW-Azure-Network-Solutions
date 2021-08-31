@@ -89,5 +89,9 @@ In this task you will be creating Sample VM in virtual network which was created
 5. Under **Networking** tab select **Virtual Network** as **NSVnet1-<inject key="DeploymentID" enableCopy="false"/>** from drop down list and select **Review + Create**.
 
      ![Review and create](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/reviewcre.png?raw=true)
+     
+6. Review the configuration and select **Create**
+
+     ![create](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createSamplevm.png?raw=true)
 
      
