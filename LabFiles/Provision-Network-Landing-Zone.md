@@ -22,15 +22,15 @@ In this task, you will create a virtual network
 
 
 
-1.  From your **LABVM**, connect to the Azure portal, select **+ Create a resource**.
+1.  From the **Azure portal**, select **+ Create a resource**.
 
      ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
      
-2.  In the **Search the Marketplace** box, select **Networking**, followed by **Virtual network** and Click on **Create**. 
+2.  In the **Search the Marketplace** box, choose **Networking**, then **Virtual network**, and then **Create**. 
 
      ![Create Resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/netvnet.png?raw=true)
      
-3. On the **Create virtual network** blade, on the **Basic** tab, enter the following information:
+3. On the **Basics** tab of **Create virtual network**, enter the following information:
 
     -  Subscription: **Select your subscription**.
   
@@ -65,7 +65,7 @@ In this task, you will create a Subnet for different scenarios like AVD, DMZ, In
 
 
 
-1.  Go to the left hand menu in newly created VNet and select **Address Space**
+1.  Select **Address Space** from the left-hand menu in the newly established VNet.
     
      - Add **Address Space** : **10.0.0.0/20**
 
