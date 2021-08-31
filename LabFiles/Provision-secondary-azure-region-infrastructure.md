@@ -52,7 +52,7 @@ In this task, you will be creating a virtual network in Region-2 (West US)
      ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createvnet2.1.png?raw=true)
 
 
-## Task-1 : 	Provision Sample VM in VNET-2
+## Task-2 : 	Provision Sample VM in VNET-2
 
 ### Overview 
 
