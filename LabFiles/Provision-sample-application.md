@@ -243,13 +243,13 @@ In this task, you will associate the Public IP Address to Virtual Machine under 
 
    6 Click on **Create**.
 
-   ![createIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/cete-pip.png?raw=true)
+   ![createIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createPubIP.png?raw=true)
    
 7. Monitor the deployment status by selecting **Notifications** Bell icon at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select  **Go to Resource**.
 
-    ![Create IP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/publicipgoto.png?raw=true)
+    ![Create IP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/gotoPubIP.png?raw=true)
 
-8. To associate the Public IP address with the VM, click **Associate** and follow the procedures under **Associate Public IP address**.
+8. To associate the Public IP address with the VM, click **Associate** and follow the procedures mentioned below to  **Associate Public IP address**.
 
    1. Resource Type : Select **Network Interface** from drop down.
 
@@ -257,13 +257,13 @@ In this task, you will associate the Public IP Address to Virtual Machine under 
 
    3. Click on **OK**
 
-   ![AssociatePIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Assopip.png?raw=true)
+   ![AssociatePIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/AssPubip.png?raw=true)
    
-9. Return to the resource group and select the **VM1-<inject key="DeploymentID" enableCopy="false"/>**.
+9. Return to the resource group and select the **VM1-<inject key="DeploymentID" enableCopy="false"/>** from the **Overview** tab.
 
 10. You can observe the corresponding **Public IP address** on the virtual machine's **Overview** tab.
 
-   ![PIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/pip.png?raw=true)
+   ![PIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/PUbIpcreated.png?raw=true)
    
    
 ## Task 3: Configure NSGs/ASGs and allow Application Access
