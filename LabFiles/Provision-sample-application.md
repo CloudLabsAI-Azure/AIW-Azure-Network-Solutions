@@ -214,15 +214,19 @@ In this task, you will associate the Public IP Address to Virtual Machine under 
 
    ![noIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/observenoip.png?raw=true)
    
-2. Now click on **Home** from top left corner and navigate to the **Azure Portal** then select **+ Create a resource**.
+3. Navigate to the **Azure Portal** by selecting the **Home** from top left corner and then select **+ Create a resource**.
 
      ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
      
-3. Search for **Public IP Address** from the home page of **Azure Portal** and Click on **Create**
+4. Search for **Public IP Address** from the home page of **Azure Portal** 
+
+     ![publicip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/publicip.png?raw=true)
+     
+5. Now click on **Create**
 
     ![create Vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/public-IP.png?raw=true)
     
-4. Enter the following information to create Public IP Address:
+6. Provide the following information to create Public IP Address:
 
    1 SKU  : **Standard**
 
