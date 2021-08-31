@@ -46,9 +46,9 @@ In this task, you will create a virtual network
 
      ![VNet Creation](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVnet1.png?raw=true)
 
-8.  Monitor the deployment status by selecting **Notifications Bell** at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
+8.  Monitor the deployment status by selecting **Notifications Bell** icon at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
 
-     ![vnet notification](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vnetgoto.png?raw=true)
+     ![vnet notification](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/gotoforVnet.png?raw=true)
 
 ## Task 2: Provision of subnets
   
