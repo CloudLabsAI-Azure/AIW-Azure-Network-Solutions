@@ -49,4 +49,4 @@ In this task, you will be creating a virtual network in Region-2 (West US)
      
 5. Wait for the confirmation that the Vnet has been successfully created. Once the virtual network has been successfully created, you can see the screen as seen in the screenshot below.
 
-     1[go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createvnet2.1.png?raw=true)
+     ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createvnet2.1.png?raw=true)
