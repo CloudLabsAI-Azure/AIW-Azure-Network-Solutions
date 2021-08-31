@@ -70,17 +70,19 @@ In this task you will be creating Sample VM in virtual network which was created
 
      1 Resource Group : Select **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** from drop down list.
      
-     2 Region : **West US**
+     2. Name : **SampleVM-<inject key="DeploymentID" enableCopy="true"/>**
      
-     3 Image : **Windows server 2019 Datacenter-Gen2
+     3 Region : **West US**
      
-     4 Username : **demouser**
+     4 Image : **Windows server 2019 Datacenter-Gen2
      
-     5 Password : **Password.1!!**
+     5 Username : **demouser**
      
-     6 Confirm Password : **Password.1!!**
+     6 Password : **Password.1!!**
      
-     7 Select **Next : Disks**
+     7 Confirm Password : **Password.1!!**
+     
+     8 Select **Next : Disks**
      
       ![create vm](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVM1.png?raw=true)
       
