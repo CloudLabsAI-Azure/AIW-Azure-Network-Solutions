@@ -258,7 +258,7 @@ In this task, you will associate the Public IP Address to Virtual Machine under 
    
 9. Return to the resource group and select the **VM1-<inject key="DeploymentID" enableCopy="false"/>**.
 
-10. Now on the **Overview** tab of virtual machine, you can observe the associated **Public IP address**
+10. You can observe the corresponding **Public IP address** on the virtual machine's **Overview** tab.
 
    ![PIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/pip.png?raw=true)
    
