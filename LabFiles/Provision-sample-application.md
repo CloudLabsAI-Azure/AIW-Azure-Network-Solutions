@@ -242,11 +242,11 @@ In this task, you will associate the Public IP Address to Virtual Machine under 
 
    ![createIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/cete-pip.png?raw=true)
    
-5. Monitor the deployment status by selecting **Notifications** Bell at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select  **Go to Resource**.
+7. Monitor the deployment status by selecting **Notifications** Bell icon at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select  **Go to Resource**.
 
-  ![Create IP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/notifi.png?raw=true)
+    ![Create IP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/publicipgoto.png?raw=true)
 
-6. Click on **Associate** to associate the Public IP to VM and use the following instructions under **Associate Public IP address**
+8. To associate the Public IP address with the VM, click **Associate** and follow the procedures under **Associate Public IP address**.
 
    1. Resource Type : Select **Network Interface** from drop down.
 
@@ -256,9 +256,11 @@ In this task, you will associate the Public IP Address to Virtual Machine under 
 
    ![AssociatePIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Assopip.png?raw=true)
    
-7. Now navigate back to the Virtual Machine by selecting **Home** button and you can observe the Public Ip in **Overview** tab of Virtual Machine.
+9. Return to the resource group and select the **VM1-<inject key="DeploymentID" enableCopy="false"/>**.
 
-   ![PIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/changed%20Public%20IP%20in%20VM1.png?raw=true)
+10. Now on the **Overview** tab of virtual machine, you can observe the associated **Public IP address**
+
+   ![PIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/pip.png?raw=true)
    
    
 ## Task 3: Configure NSGs/ASGs and allow Application Access
