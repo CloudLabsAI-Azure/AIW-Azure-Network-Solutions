@@ -315,7 +315,7 @@ In this task, you will create a Network Security Group and access for Applicatio
 
     ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/notifi1.png?raw=true)
     
-4. To associate NSG to the deployed VM follow the below instructions
+4. Follow the below instructions to associate NSG to the deployed VM
 
      1. Select **Network Interface**
 
@@ -329,6 +329,8 @@ In this task, you will create a Network Security Group and access for Applicatio
       
 5. On **Network Security Group** blade, under **Settings** Select **Inbound security Rules** and click on **Add**.
 
+      ![nsg](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/nsg2.2.png?raw=true)
+
 6.  Under **Add inbound security rule**:
 
      - Add **Destination Port Range** as **3389**
@@ -337,7 +339,7 @@ In this task, you will create a Network Security Group and access for Applicatio
 
      - Click on **Add**   
 
-        ![Add RDP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-rdp.png?raw=true)
+        ![Add RDP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/nsg2.3.png?raw=true)
 
 
 7. Repeat the step-5 to create **Port_80**
