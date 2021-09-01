@@ -176,7 +176,7 @@ In this task you will be creating Peering for the Vnet.
  
 10. Now, provide the **Private IP address** that you copied in the step-8 and try to connect to **Remote Desktop App**
 
-     ![private](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/connecprivate.png?raw=true)
+     ![private](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/rdp12.png?raw=true)
      
 11. Use the same credentials as in step 6 to connect to the Remote Desktop App.
 
