@@ -392,10 +392,81 @@ In this task, you will create a Network Security Group and access for Applicatio
  
     In this task you will be creating seconday VM under same Availability Set.
     
-1. Follow the actions mentioned in **Task 1** from step 1 to step 7 to create the secondary VM and also change the name of the VM as **[concat('VM2-',parameters('deploymentID'))]** in ARM template
+1. Follow the actions mentioned in **Task 1** from step 1 to step 7 to create the secondary VM 
+ 
+2. To change the name of the VM update the line number **30** with the following **[concat('VM2-',parameters('deploymentID'))]** in ARM template
 
      ![vm2](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/changevm2.png?raw=true)
      
+3. Once the deployment is complete, move back to the resource group and select **VM2-<inject key="DeploymentID" enableCopy="false"/>**.
+
+4. You can observe that the virtual machine doesn't have a **Public IP address** from the **Overview** tab.
+
+     ![nopip](https://user-images.githubusercontent.com/83349577/131731790-62fec26c-71f5-427d-9f6a-b6f15f100ff3.png)
+     
+5. Now, we need to create a Public Ip address and associate it to **VM2-<inject key="DeploymentID" enableCopy="false"/>**
+
+6.Navigate to the Azure Portal by selecting the Home from top left corner and then select + Create a resource.
+
+       ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
+     
+7. Search for **Public IP Address** from the home page of **Azure Portal** 
+
+     ![publicip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/publicip.png?raw=true)
+     
+8. Now click on **Create**
+
+    ![create Vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/public-IP.png?raw=true)
+
+9. Provide the following information to create Public IP Address:
+
+   1 SKU  : **Standard**
+
+   2 Tier : **Regional**
+
+   3 Name : **PublicIP2-<inject key="DeploymentID" enableCopy="false"/>**
+
+   4 Choose your **Subscription Group**
+
+   5 Resource Group : **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**
+
+   6 Click on **Create**.   
+   
+     ![pip2](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/pip2.png?raw=true)
+     
+10. Monitor the deployment status by selecting **Notifications** Bell icon at the top of the portal. In a minute or so, you should see a confirmation of the successful deployment. Select **Go to Resource**.
+
+     ![pip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/gotopip2.png?raw=true)
+     
+11. To associate the Public IP address with the VM, click **Associate** and follow the procedures mentioned below to  **Associate Public IP address**.
+
+   1. Resource Type : Select **Network Interface** from drop down.
+
+   2. Network Interface : Select Network Interface of the newly deployed VM.
+
+   3. Click on **OK**
+
+   ![AssociatePIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/asspip.png?raw=true)
+   
+12. Return to the resource group and select the **VM2-<inject key="DeploymentID" enableCopy="false"/>** from the **Overview** tab.
+
+13. You can observe the corresponding **Public IP address** on the virtual machine's **Overview** tab.
+
+   ![PIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vm2pip1.png?raw=true)
+   
+14. Now, go back to the **Azure Portal** and seach for **Network Security Group**
+
+    ![nsg](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/nsgselect.png?raw=true)
+    
+15. Select the **NSG-<inject key="DeploymentID" enableCopy="false"/>**.
+
+16. Select **Network Interfaces** under **NSG-<inject key="DeploymentID" enableCopy="false"/>** and click on **Associate**
+     
+      ![nsg](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Assnsg.png?raw=true)
+      
+17. Under **Network Interface Associations** select **VM2-<inject key="DeploymentID" enableCopy="false"/>-nic** and click on **OK**
+
+     ![pip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/assint.png?raw=true)
      
 ## Task 5.2 : Provision Load Balancing using External Load Balancer 
 
