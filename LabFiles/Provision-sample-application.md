@@ -79,7 +79,7 @@ In this task, you will be deploying a virtual machine without public IP address 
         "virtualMachineSize": "Standard_D2s_v3",
         "vmPublicIpDnsName": "[concat('labvm',uniqueString(resourceGroup().id))]",
         "apiVersion": "[providers('Microsoft.ServiceBus', 'namespaces').apiVersions[0]]",
-        "rgName": "Anusha",
+        "rgName": "hands-on-lab-",
         "virtualNetworkName": "[concat('NSVnet-',parameters('deploymentID'))]",
         "SubnetName": "Internal",
         "subnetRef": "[resourceId(variables('rgName'),'Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('SubnetName'))]"
@@ -165,10 +165,36 @@ In this task, you will be deploying a virtual machine without public IP address 
                 "platformFaultDomainCount": "[variables('availabilitySetPlatformFaultDomainCount')]",
                 "platformUpdateDomainCount": "[variables('availabilitySetPlatformUpdateDomainCount')]"
             }
+        },
+        {
+            "type": "Microsoft.Compute/virtualMachines/extensions",
+            "apiVersion": "2015-06-15",
+            "name": "[concat(variables('jumphost'),'/', 'winExtension')]",
+            "location": "[resourceGroup().location]",
+            "dependsOn": [
+                "[concat('Microsoft.Compute/virtualMachines/', variables('jumphost'))]"
+            ],
+            "tags": {
+                "displayName": "VM Extension"
+            },
+            "properties": {
+                "publisher": "Microsoft.Compute",
+                "type": "CustomScriptExtension",
+                "typeHandlerVersion": "1.8",
+                "autoUpgradeMinorVersion": true,
+                "settings": {
+                    "fileUris": [
+                        "https://raw.githubusercontent.com/Divyasri199/Templates/main/netsol.ps1"
+                    ]
+                },
+                "protectedSettings": {
+                    "commandToExecute": "powershell.exe -ExecutionPolicy Unrestricted -File netsol.ps1"
+                }
+            }
         }
     ],
-     "outputs": {}
-     }
+    "outputs": {}
+    }
  
 4. Replace the Resource Group name in the template with the below mentioned RGName and double-check the subnet name, then **Save** the template.
 
