@@ -91,7 +91,7 @@ In this task you will be creating Sample VM in virtual network which was created
 
 5. Under **Networking** tab select **Virtual Network** as **NSVnet1-<inject key="DeploymentID" enableCopy="false"/>** from drop down list and select **Review + Create**.
 
-     ![Review and create](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/reviewcre.png?raw=true)
+     ![Review and create](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVM3.png?raw=true)
      
 6. Review the Virtual Network configuration and select **Create**
 
@@ -114,7 +114,7 @@ In this task you will be creating Peering for the Vnet.
    
 2. Select **Peerings** under **Settings** from the left navigation menu and select **Add**.
 
-     ![peering](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/peering.png?raw=true)
+     ![peering](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/peerin3.png?raw=true)
      
 3. Set the following configuration for the new peering. Select Add to create the peering.
 
