@@ -392,49 +392,9 @@ In this task, you will create a Network Security Group and access for Applicatio
  
     In this task you will be creating seconday VM under same Availability Set.
     
-1. Navigate back to the **Azure Portal** then select **+ Create a resource**.
+1. Follow the actions mentioned in **Task 1** from step 1 to step 7 to create the secondary VM and also change the name of the VM as **[concat('VM2-',parameters('deploymentID'))]** in ARM template
 
-     ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
-     
-2. Under categories, click on  **(1) compute** and select **Virtual Machine**
-
-     ![vm](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/selectvm.png?raw=true)
-    
-2. Click on **Create**
-
-     ![VM](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vms.png?raw=true)
-     
-3. Enter the following instructions to create secondary VM
-
-      1. Virtual machine name : **VM2-<inject key="DeploymentID" enableCopy="false"/>**
-
-      2. Availability options : Select **Availability set** from drop down
-
-      3. Availability Set : **ANS-AS-<inject key="DeploymentID" enableCopy="false"/>**
-
-      4. Username : **demouser**
-
-      5. Password : **Password.1!!**
-
-      6. Confirm Password : **Password.1!!**
-
-      7. Select **Next:Disks**
-
-     ![Secondary VM](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vm2-create.png?raw=true)
-     
-4. Leave everything as default in Disks tab and move to **Networking**
-     
-5. After moving to the **Networking** tab, under **Public IP** select **Create new** and make sure you select **SKU** as **Standard** for Public IP and click on **OK**.
-
-    ![Standard IP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vm2-ip.png?raw=true)
-     
-6. Select Subnet as **Internal** and click on **Review and Create**.
-
-    ![networking](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVM2-1.png?raw=true)
-    
-7. Noe select **Create**
-
-     1[create VM2](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/create-vm2.png?raw=true)
+     ![vm2](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/changevm2.png?raw=true)
      
      
 ## Task 5.2 : Provision Load Balancing using External Load Balancer 
