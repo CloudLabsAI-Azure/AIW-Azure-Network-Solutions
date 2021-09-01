@@ -28,7 +28,7 @@ In this task, you will create a virtual network
      
 2.  In the **Search the Marketplace** box, choose **Networking**, then **Virtual network**, and then **Create**. 
 
-     ![Create Resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/netvnet.png?raw=true)
+     ![Create Resource](https://user-images.githubusercontent.com/83349577/131707021-540299f2-c399-4e82-b2b5-0eaedd86925e.png)
      
 3. On the **Basics** tab of **Create virtual network**, enter the following information and select **Review + Create**.
 
