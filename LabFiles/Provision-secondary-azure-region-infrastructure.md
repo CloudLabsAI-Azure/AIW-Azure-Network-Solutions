@@ -43,11 +43,11 @@ In this task, you will be creating a virtual network in Region-2
 
        ![second Vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/2vnet.png?raw=true)
        
-4. Review the configuration and select **Create**.
+4. Review the Virtual Machine configuration and select **Create**.
 
      ![create vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVnet2.png?raw=true)
      
-5. Wait for the confirmation that the Vnet has been successfully created. Once the virtual network has been successfully created, you can see the screen as seen in the screenshot below.
+5. Once the deployment is completed, click on **Go to resource** to navigate to it.
 
      ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createvnet2.1.png?raw=true)
 
@@ -58,15 +58,15 @@ In this task, you will be creating a virtual network in Region-2
 
 In this task you will be creating Sample VM in virtual network which was created in Region-2.
 
-1. Now, navigate back to the **Home** page of Azure Portal and click on **Create a resource**.
+1. Navigate back to the **Home** page of Azure Portal and click on **Create a resource**.
 
      ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createresou.png?raw=true)
      
-2. Search for **Virtual machine** and click on **Create**
+2. Search for **Virtual machine**, select it and click on **Create**
 
      ![create vm](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVM.png?raw=true)
      
-3. Provide the below mentioned instructions for creating Virtual Machine under the **Basics** tab of **Create a virtual machine**.
+3.  On the Basics tab of Create a virtual machine blade, enter the following details:
 
      1 Resource Group : Select **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** from drop down list.
      
@@ -86,17 +86,18 @@ In this task you will be creating Sample VM in virtual network which was created
      
       ![create vm](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVM1.png?raw=true)
       
-4. Leave everything as **Default** under **Disks** tab and move to **Networking**
+4. Leave everything as **Default** under **Disks** tab and  click on  **Next: Networking**
+	
 
 5. Under **Networking** tab select **Virtual Network** as **NSVnet1-<inject key="DeploymentID" enableCopy="false"/>** from drop down list and select **Review + Create**.
 
      ![Review and create](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/reviewcre.png?raw=true)
      
-6. Review the configuration and select **Create**
+6. Review the Virtual Network configuration and select **Create**
 
      ![create](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createSamplevm.png?raw=true)
 
-7. Wait until the Virtual Machine has been created successfully and select **Go to Resource**
+7. Once the deployment is complete, click on **Go to resource** to navigate to it.
 
      ![goto](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/sampleVMgoto.png?raw=true)
 
@@ -111,7 +112,7 @@ In this task you will be creating Peering for the Vnet.
 
      ![select vnet](https://user-images.githubusercontent.com/83349577/131581610-832f3bc9-8ade-41e7-ba32-c164739b055b.png)
    
-2. Select **Peerings** under Settings on the left and select **Add**.
+2. Select **Peerings** under **Settings** from the left navigation menu and select **Add**.
 
      ![peering](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/peering.png?raw=true)
      
@@ -141,11 +142,11 @@ In this task you will be creating Peering for the Vnet.
 
      ![reosurce group](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/resourcegroup.png?raw=true)
      
-2. Select **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**, then select **SampleVM-<inject key="DeploymentID" enableCopy="false"/>** from **Overview** tab of resource group.
+2. Select **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**, then select **SampleVM-<inject key="DeploymentID" enableCopy="false"/>** from list of resources
 
    ![sample vm](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/selectsmaplevm.png?raw=true)
    
-3. From the **Overview** of SampleVM-<inject key="DeploymentID" enableCopy="false"/>, select **Connect** to connect the VM to **RDP**
+3. From the **Overview** of SampleVM-<inject key="DeploymentID" enableCopy="false"/>, select **Connect** to connect the VM using **RDP**
 
      ![vmto rdp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/connectsamplevm.png?raw=true)
      
@@ -169,7 +170,7 @@ In this task you will be creating Peering for the Vnet.
 
      ![privateip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/privateIp.png?raw=true)
      
-9. Now, in the virtual machine that is connected to RDP, look for the **Remote desktop app** and double-click on it to open.
+9. Now, from the samplevm, search for Remote desktop app and select it.
 
      ![rdp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/rdpconnection.png?raw=true)
  
@@ -179,4 +180,8 @@ In this task you will be creating Peering for the Vnet.
      
 11. Use the same credentials as in step 6 to connect to the Remote Desktop App.
 
-12. If you can connect to the VM using a private IP address, you've successfully set up inter-VM connectivity on your private network.
+     - Username : **demouser**
+
+     -Password : **Password.1!!**
+
+12.  Notice that you can connect to the VM using a private IP address which means you've successfully set up inter-VM connectivity on your private network.
