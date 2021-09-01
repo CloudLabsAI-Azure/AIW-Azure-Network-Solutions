@@ -370,7 +370,7 @@ In this task, you will create a Network Security Group and access for Applicatio
   
   In this task you will check wheater the we are able to connect to the created application.
      
-1. 1. Navigate to the resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** and select the virtual machine **VM1-<inject key="DeploymentID" enableCopy="false"/>** from **Overview** tab
+1. Navigate to the resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** and select the virtual machine **VM1-<inject key="DeploymentID" enableCopy="false"/>** from **Overview** tab
 
    ![vm1.1](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/selectVM.png?raw=true)
 
@@ -467,6 +467,16 @@ In this task, you will create a Network Security Group and access for Applicatio
 17. Under **Network Interface Associations** select **VM2-<inject key="DeploymentID" enableCopy="false"/>-nic** and click on **OK**
 
      ![pip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/assint.png?raw=true)
+     
+18. Navigate to the resource group hands-on-lab- and select the virtual machine VM2- from Overview tab
+
+19. Now copy the Public IP address from the virtual machine's Overview page and paste it in new tab
+
+      ![vm2pip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vm2pip1.png?raw=true)
+      
+20.  You'll be directed to the webpage with the name of VM2-<inject key="DeploymentID" enableCopy="false"/> shown in the screenshot below.
+
+      ![vm2](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/webpage.png?raw=true)
      
 ## Task 5.2 : Provision Load Balancing using External Load Balancer 
 
