@@ -23,11 +23,11 @@
 
 In this task, you will be creating a virtual network in Region-2 
 
-1. Select **Show portal menu** from the upper left corner of the Azure Portal's **Home** page and then **Create a resource**.
+1. Select **Show portal menu** from the upper left corner of the Azure Portal's **Home** page and then select **Create a resource**.
 
     ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createresou.png?raw=true)
     
-2. In the **Search the Marketplace box**, select **Networking**, then **Virtual Network**, and finally Create.
+2. In the **Search the Marketplace box**, select **Networking**, then **Virtual Network**, and finally click on Create.
 
       ![Create Resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/netvnet.png?raw=true)
       
@@ -47,7 +47,7 @@ In this task, you will be creating a virtual network in Region-2
 
      ![create vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVnet2.png?raw=true)
      
-5. Once the deployment is completed, click on **Go to resource** to navigate to it.
+5. Once the deployment is completed, click on **Go to resource** to navigate to VNet.
 
      ![go to resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createvnet2.1.png?raw=true)
 
@@ -70,7 +70,7 @@ In this task you will be creating Sample VM in virtual network which was created
 
      1 Resource Group : Select **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** from drop down list.
      
-     2. Name : **SampleVM-<inject key="DeploymentID" enableCopy="true"/>**
+     2 Name : **SampleVM-<inject key="DeploymentID" enableCopy="true"/>**
      
      3 Region : **West US**
      
