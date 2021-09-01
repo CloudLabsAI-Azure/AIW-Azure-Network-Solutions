@@ -374,7 +374,7 @@ In this task, you will create a Network Security Group and access for Applicatio
 
    ![vm1.1](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/selectVM.png?raw=true)
 
-2. Now, copy the **Public IP address**  from the virtual machine's **Overview** tab and paste it in new tab
+2. Now, copy the **Public IP address**  from the virtual machine's **Overview** and paste it in new tab
 
    ![PIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/PUbIpcreated.png?raw=true)
    
