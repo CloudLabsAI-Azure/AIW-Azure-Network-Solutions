@@ -144,11 +144,11 @@ In this task you will be creating Peering for the Vnet.
      
 2. Select **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**, then select **SampleVM-<inject key="DeploymentID" enableCopy="false"/>** from list of resources
 
-   ![sample vm](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/selectsmaplevm.png?raw=true)
+   ![sample vm](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/samplevm.png?raw=true)
    
 3. From the **Overview** of SampleVM-<inject key="DeploymentID" enableCopy="false"/>, select **Connect** to connect the VM using **RDP**
 
-     ![vmto rdp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/connectsamplevm.png?raw=true)
+     ![vmto rdp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/connectvm.png?raw=true)
      
 4. Select **Download RDP File** to download the RDP file, and then open it once it has been downloaded.
 
@@ -168,7 +168,7 @@ In this task you will be creating Peering for the Vnet.
 
 8. Now, from your Azure Portal navigate to **VM2-<inject key="DeploymentID" enableCopy="false"/>** and copy the **Private Ip address** from **Overview** tab.
 
-     ![privateip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/privateIp.png?raw=true)
+     ![privateip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/privateip1.png?raw=true)
      
 9. Now, from the samplevm, search for Remote desktop app and select it.
 
