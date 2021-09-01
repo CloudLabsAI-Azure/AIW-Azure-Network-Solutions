@@ -41,7 +41,7 @@ In this task, you will be creating a virtual network in Region-2
 
      - Location: **West US**
 
-       ![second Vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/2vnet.png?raw=true)
+       ![second Vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/cretaevnet.png?raw=true)
        
 4. Review the Virtual Machine configuration and select **Create**.
 
