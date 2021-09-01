@@ -30,6 +30,10 @@ In this task, you will create a virtual network
 
      ![Create Resource](https://user-images.githubusercontent.com/83349577/131707021-540299f2-c399-4e82-b2b5-0eaedd86925e.png)
      
+3. Click on **Create**
+
+      ![vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Vnet.png?raw=true)
+     
 3. On the **Basics** tab of **Create virtual network**, enter the following information and select **Review + Create**.
 
     -  Subscription: **Select your subscription**.
