@@ -362,33 +362,6 @@ In this task, you will create a Network Security Group and access for Applicatio
 
    ![Port 443](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add-443.png?raw=true)
 
-9. Now navigate back to the VM we created in task-1, click on **Connect** to connect RDP 
-
-    ![connect](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/connect-RDP.png?raw=true)
-    
-10. Now click on **Download RDP File** and open VM after it got downloaded.
-
-    ![download rdp file](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/downloadRDP-VM1.png?raw=true)
-    
-11. Provide the below details to connect VM
-
-    - User Name  : **.\demouser**
-
-    - Password   : **Password.1!!**
-
-12. After connecting to the VM, you wil be promted with the **Networks** dialogue box then click on **Yes**.
-
-    ![networks](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/networks-in-VM1.png?raw=true)
-    
-13. Minimize the **Server Manager** tab.
-
-14. Click on the Windows icon at left-bottom corner and search for the **Powershell ISE** then run it as Administrator.
-
-15. Enter the below command in Powershell and Click on **Run**.
-
-     * Install-WindowsFeature -name Web-Server -IncludeManagementTools
-
-     ![Run app](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/runcommand.png?raw=true)
      
  ## Task-4 : Test Application 
  
@@ -397,13 +370,17 @@ In this task, you will create a Network Security Group and access for Applicatio
   
   In this task you will check wheater the we are able to connect to the created application.
      
-1. After running the command successfully, close the RDP and go back to the **Overview** of **VM-<inject key="DeploymentID" enableCopy="false"/>**.
+1. 1. Navigate to the resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** and select the virtual machine **VM1-<inject key="DeploymentID" enableCopy="false"/>** from **Overview** tab
 
-2. Now copy the **Public IP** of **VM1-<inject key="DeploymentID" enableCopy="false"/>** and browse it in new tab.
+   ![vm1.1](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/selectVM.png?raw=true)
 
-3. You will get the web page as mentioned in below screenshot.
+2. Now, copy the **Public IP address**  from the virtual machine's **Overview** tab and paste it in new tab
 
-    ![webapp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/webapp.png?raw=true)
+   ![PIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/PUbIpcreated.png?raw=true)
+   
+3. You'll be directed to the website shown in the screenshot below.
+
+    ![webapp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/website.png?raw=true)
    
    
 ## Task 5 : Setup Load Balancing 
