@@ -61,7 +61,7 @@ In this task, you will create a Subnet for different scenarios like AVD, DMZ, In
      
 1.  Select **Subnets** from NSVnet-<inject key="DeploymentID" enableCopy="false"/> blade and Click on **+Subnet**
 
-      ![Subnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/subnet.png?raw=true)
+      ![Subnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/sunets.png?raw=true)
       
 2. Provide the following instructions under **Add Subnet** to create **AVD** subnet.
 
