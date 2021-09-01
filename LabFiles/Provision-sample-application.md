@@ -547,7 +547,7 @@ In this task, you will be creating an exertal load balancer
       
 15. After adding the virtual machines in the backend pool you can observe the screen as mentioned in below screenshot, after reviewing click on **Inbound rules**.
 
-     1[review backendpools](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/reviewbackendpool.png?raw=true)
+     ![review backendpools](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/reviewbackendpool.png?raw=true)
      
 16. To create load balancing rule, click on **Add a load balancing rule** and following the below mentioned instructions:
 
