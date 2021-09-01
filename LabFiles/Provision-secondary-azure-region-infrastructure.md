@@ -64,11 +64,15 @@ In this task you will be creating Sample VM in virtual network which was created
 
 1. Navigate back to the **Home** page of Azure Portal and click on **Create a resource**.
 
-     ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createresou.png?raw=true)
+     ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createres.png?raw=true)
      
-2. Search for **Virtual machine**, select it and click on **Create**
+2. Go to **Compute** under **Categories** and select **Virtual Machine**.
 
-     ![create vm](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createVM.png?raw=true)
+     ![vm](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/selectvm.png?raw=true)
+     
+2. Now, click on **Create**
+
+     ![create vm](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vms.png?raw=true)
      
 3.  On the Basics tab of Create a virtual machine blade, enter the following details:
 
