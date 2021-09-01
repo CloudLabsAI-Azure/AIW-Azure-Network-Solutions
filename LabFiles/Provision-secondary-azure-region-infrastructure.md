@@ -35,7 +35,7 @@ In this task, you will be creating a virtual network in Region-2
 
       ![vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Vnet.png?raw=true)
       
-3. On the **Basic** tab of **Create Virtual Network** blade, enter the following information and select **Review + Create**.
+3. On the **Basics** tab of **Create Virtual Network** blade, enter the following information and select **Review + Create**.
 
      - Subscription: Select your subscription.
 
