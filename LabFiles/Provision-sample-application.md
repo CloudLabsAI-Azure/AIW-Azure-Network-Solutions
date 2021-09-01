@@ -374,11 +374,11 @@ In this task, you will create a Network Security Group and access for Applicatio
 
    ![vm1.1](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/selectVM.png?raw=true)
 
-2. Now, copy the **Public IP address**  from the virtual machine's **Overview** and paste it in new tab
+2. Now, copy the **Public IP address**  from the virtual machine's **Overview** page and paste it in new tab
 
    ![PIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/PUbIpcreated.png?raw=true)
    
-3. You'll be directed to the website shown in the screenshot below.
+3. You'll be directed to the webpage shown in the screenshot below.
 
     ![webapp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/website.png?raw=true)
    
@@ -388,17 +388,21 @@ In this task, you will create a Network Security Group and access for Applicatio
 ## Task 5.1 : Provision Secondary VM
  
  
- ### Overview
+### Overview
  
     In this task you will be creating seconday VM under same Availability Set.
     
-1. From your **Azure Portal**, select **+ Create a resource**.
+1. Navigate back to the **Azure Portal** then select **+ Create a resource**.
 
      ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
-    
-2. Search for **Virtual Machine** and click on **Create**
+     
+2. Under categories, click on  **(1) compute** and select **Virtual Machine**
 
-     ![VM](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/VM.png?raw=true)
+     ![vm](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/selectvm.png?raw=true)
+    
+2. Click on **Create**
+
+     ![VM](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vms.png?raw=true)
      
 3. Enter the following instructions to create secondary VM
 
