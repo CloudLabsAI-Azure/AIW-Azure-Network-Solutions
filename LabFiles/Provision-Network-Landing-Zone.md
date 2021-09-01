@@ -24,9 +24,9 @@ In this task, you will create a virtual network
 
 1.  Select **Show portal menu** from the upper left corner of the Azure Portal's **Home** page and then **Create a resource**.
 
-      ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createresou.png?raw=true)
+      ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createres.png?raw=true)
      
-2.  In the **Search the Marketplace** box, choose **Networking**, then **Virtual network**, and then **Create**. 
+2.  Select **Networking** from **Azure Marketplace**, then click on **Virtual Network**.
 
      ![Create Resource](https://user-images.githubusercontent.com/83349577/131707021-540299f2-c399-4e82-b2b5-0eaedd86925e.png)
      
