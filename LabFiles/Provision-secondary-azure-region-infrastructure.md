@@ -182,6 +182,6 @@ In this task you will be creating Peering for the Vnet.
 
      - Username : **demouser**
 
-     -Password : **Password.1!!**
+     - Password : **Password.1!!**
 
 12.  Notice that you can connect to the VM using a private IP address which means you've successfully set up inter-VM connectivity on your private network.
