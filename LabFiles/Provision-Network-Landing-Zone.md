@@ -81,7 +81,7 @@ In this task, you will create a Subnet for different scenarios like AVD, DMZ, In
     
     3 Select **Save**
 
-    ![DMZ](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/DMZ1.png?raw=true)
+    ![DMZ](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/DMZ1.1.png?raw=true)
     
 4. Repeat the step-1 for creating **Internal** subnet and provide the below mentioned instructions.
 
