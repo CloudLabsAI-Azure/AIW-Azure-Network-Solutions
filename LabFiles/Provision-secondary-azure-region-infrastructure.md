@@ -74,7 +74,7 @@ In this task you will be creating Sample VM in virtual network which was created
 
      ![create vm](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vms.png?raw=true)
      
-3.  On the Basics tab of Create a virtual machine blade, enter the following details:
+3.  On the **Basics** tab of **Create a virtual machine** blade, enter the following details:
 
      1 Resource Group : Select **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** from drop down list.
      
