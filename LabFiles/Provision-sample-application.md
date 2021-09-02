@@ -438,7 +438,7 @@ In this task, you will create a Network Security Group and access for Applicatio
 
      ![pip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/gotopip2.png?raw=true)
      
-11. To associate the Public IP address with the VM, click **Associate** and follow the procedures mentioned below to  **Associate Public IP address**.
+11. To associate the Public IP address with the VM, click **Associate** and follow the procedures mentioned below under  **Associate Public IP address** tab.
 
      1. Resource Type : Select **Network Interface** from drop down.
 
