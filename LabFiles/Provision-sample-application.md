@@ -394,7 +394,7 @@ In this task, you will create a Network Security Group and access for Applicatio
     
 1. Follow the actions mentioned in **Task 1** from step 1 to step 7 to create the secondary VM 
  
-2. To change the name of the VM update the line number **30** with the following **[concat('VM2-',parameters('deploymentID'))]** in ARM template
+2. To change the name of the VM update the line number **30** with the following command **[concat('VM2-',parameters('deploymentID'))]** in ARM template
 
      ![vm2](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/changevm2.png?raw=true)
      
@@ -408,7 +408,7 @@ In this task, you will create a Network Security Group and access for Applicatio
 
 6.Navigate to the Azure Portal by selecting the Home from top left corner and then select + Create a resource.
 
-       ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
+   ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
      
 7. Search for **Public IP Address** from the home page of **Azure Portal** 
 
