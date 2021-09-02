@@ -32,7 +32,7 @@ In this task, you will create a virtual network
      
 3. Click on **Create**
 
-      ![vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Vnet.png?raw=true)
+      ![vnet](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/vnet1.png?raw=true)
      
 3. On the **Basics** tab of **Create virtual network**, enter the following information and select **Review + Create**.
 
