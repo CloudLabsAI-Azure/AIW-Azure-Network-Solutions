@@ -39,7 +39,7 @@ In this task, you will be deploying a virtual machine without public IP address 
 
     ![template deployment](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/customdep.png?raw=true)
     
-3. Now copy and paste the code mentioned below into the editor.
+3. Copy the json script below and paste it into the editor to replace the existing script.
 
     ```json
     {
@@ -247,7 +247,7 @@ In this task, you will associate the Public IP Address to Virtual Machine under 
 
      ![Create resource](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/createRS.png?raw=true)
      
-4. Search for **Public IP Address** from the home page of **Azure Portal** 
+4. Search for **Public IP Address** from the home page of **Azure Portal** and select it.
 
      ![publicip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/publicip.png?raw=true)
      
@@ -275,7 +275,7 @@ In this task, you will associate the Public IP Address to Virtual Machine under 
 
     ![Create IP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/gotoPubIP.png?raw=true)
 
-8. To associate the Public IP address with the VM, click **Associate** and follow the procedures mentioned below to  **Associate Public IP address**.
+8. To associate the Public IP address with the VM, click on **Associate** and follow the procedures mentioned below inside the  **Associate Public IP address** tab.
 
    1. Resource Type : Select **Network Interface** from drop down.
 
@@ -303,7 +303,7 @@ In this task, you will create a Network Security Group and access for Applicatio
 
    ![NSG](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/create%20nsg.png?raw=true)
    
-2. On the **Basics** tab of  Create an network security group enter the following information, and select **Review + create**:
+2. On the **Basics** tab of  Create network security group enter the following information, and select **Review + create**:
 
    - Resource Group : Select your resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>**
 
@@ -327,11 +327,11 @@ In this task, you will create a Network Security Group and access for Applicatio
 
       ![Associate NSG to VM](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/nic-nsg.png?raw=true)
       
-5. On **Network Security Group** blade, under **Settings** Select **Inbound security Rules** and click on **Add**.
+5. On the **Network Security Group** blade, Select **Inbound security Rules** from **Settings** and click on **Add**.
 
       ![nsg](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/nsg2.2.png?raw=true)
 
-6.  Under **Add inbound security rule**:
+6.  Provide the following information under **Add inbound security rule**:
 
      - Add **Destination Port Range** as **3389**
    
