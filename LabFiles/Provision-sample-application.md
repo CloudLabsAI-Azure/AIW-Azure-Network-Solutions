@@ -592,9 +592,9 @@ In this task, you will be creating an exertal load balancer
     
 2. Now you can find the same **Public Ip address** for Load balancer and previously deployed 2 virtual machines.
 
-3. Copy the public Ip address and browse it in new tab, you can find the web page we had deployed in task-4
+3. Copy the **public IP address** and paste it into a new tab to access the webpage we set up in task-4
 
-     ![web page](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/webapp.png?raw=true)
+     ![webapp](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/website.png?raw=true)
      
 4. To test for VM failover, go back to **VM1-<inject key="DeploymentID" enableCopy="false"/>** in the resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="true"/>** and deallocate the VM  by clicking on **Stop**.
 
