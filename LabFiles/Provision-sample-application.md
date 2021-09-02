@@ -460,7 +460,7 @@ In this task, you will create a Network Security Group and access for Applicatio
     
 15. Select the **NSG-<inject key="DeploymentID" enableCopy="false"/>**.
 
-16. Select **Network Interfaces** under **NSG-<inject key="DeploymentID" enableCopy="false"/>** and click on **Associate**
+16. Select **Network Interfaces** from **Settings** under **NSG-<inject key="DeploymentID" enableCopy="false"/>** tab and click on **Associate**
      
       ![nsg](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Assnsg.png?raw=true)
       
@@ -468,7 +468,7 @@ In this task, you will create a Network Security Group and access for Applicatio
 
      ![pip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/assint.png?raw=true)
      
-18. Navigate to the resource group hands-on-lab- and select the virtual machine VM2- from Overview tab
+18. Navigate to the resource group **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** and select the virtual machine VM2- from Overview tab
 
 19. Now copy the Public IP address from the virtual machine's Overview page and paste it in new tab
 
