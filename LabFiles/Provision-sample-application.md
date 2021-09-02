@@ -505,7 +505,7 @@ In this task, you will be creating an exertal load balancer
 
        ![frontendIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Front%20endIP.png?raw=true)
        
-9.  Enter the following instructions to create **Frontend IP** :
+9.  Enter the following information to create **Frontend IP** :
 
      - Name : **FIP-<inject key="DeploymentID" enableCopy="false"/>**
 
@@ -515,7 +515,9 @@ In this task, you will be creating an exertal load balancer
 
      - Under **Public IP address** click on **Create new**
       
-     -  Now add **Name** as **PublicIP-<inject key="DeploymentID" enableCopy="false"/>** ,click on **Ok**.
+     -  Now add **Name** as **PublicIP-<inject key="DeploymentID" enableCopy="false"/>** 
+      
+     -  click on **Ok**.
 
        ![frontendIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/FrontendIP.png?raw=true)
        
@@ -523,7 +525,7 @@ In this task, you will be creating an exertal load balancer
 
      ![add frontend ip](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Add%20frontend%20ip%20address.png?raw=true)
     
-11. After adding frontend IP Address should see the screen as mentioned in below Screen shot and click on **Backend Pool**
+11. After adding the frontend IP Address, you can observe the screen as mentioned in the below screenshot then click on **Backend Pool**
 
     ![next to backend pool](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Next-to-backendpool.png?raw=true)
     
@@ -545,11 +547,11 @@ In this task, you will be creating an exertal load balancer
 
       ![add backendpool](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/add%20on%20add.png?raw=true)
       
-15. After adding the virtual machines in the backend pool you can observe the screen as mentioned in below screenshot, after reviewing click on **Inbound rules**.
+15. After adding the virtual machines in the backend pool, you can observe the screen as mentioned in below screenshot, after reviewing click on **Inbound rules**.
 
      ![review backendpools](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/reviewbackendpool.png?raw=true)
      
-16. To create load balancing rule, click on **Add a load balancing rule** and following the below mentioned instructions:
+16. To create load balancing rule, click on **Add a load balancing rule** and follow the below mentioned instructions:
 
      - Name : **LoadBalancing-<inject key="DeploymentID" enableCopy="true"/>**
 
@@ -563,7 +565,13 @@ In this task, you will be creating an exertal load balancer
 
      ![loadbalincing](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/Loadbalancing.png?raw=true)
      
-     - Health Probe: To create health probe click on **create new** and mention **Name** as **HealthProbe-<inject key="DeploymentID" enableCopy="true"/>**, **Protocol** as         **HTTP** then select **Ok**
+     - Health Probe: To create health probe click on **create new** and follow the below instructions
+      
+     - **Name** : **HealthProbe-<inject key="DeploymentID" enableCopy="true"/>**
+      
+     -   **Protocol** : **HTTP** 
+        
+     -   select **Ok**
 
        ![health probe](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/healthprobe.png?raw=true)
        
