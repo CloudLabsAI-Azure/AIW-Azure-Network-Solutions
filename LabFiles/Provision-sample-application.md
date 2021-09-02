@@ -440,11 +440,11 @@ In this task, you will create a Network Security Group and access for Applicatio
      
 11. To associate the Public IP address with the VM, click **Associate** and follow the procedures mentioned below to  **Associate Public IP address**.
 
-   1. Resource Type : Select **Network Interface** from drop down.
+     1. Resource Type : Select **Network Interface** from drop down.
 
-   2. Network Interface : Select Network Interface of the newly deployed VM.
+     2. Network Interface : Select Network Interface of the newly deployed VM.
 
-   3. Click on **OK**
+     3. Click on **OK**
 
    ![AssociatePIP](https://github.com/Divyasri199/AIW-Azure-Network-Solutions/blob/prod/media/asspip.png?raw=true)
    
