@@ -1,0 +1,35 @@
+[
+  {
+    "Name": "Azure Network Solutions",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/main/LabFiles/1.%20Gettingstarted.md",
+        "Order": 1
+
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/main/LabFiles/2.%20Provision-Network-Landing-Zone.md",
+        "Order": 2
+
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/main/LabFiles/3.%20Provision-sample-application.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/main/LabFiles/4.%20Provision-secondary-azure-region-infrastructure.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/main/LabFiles/5.%20Provision%20%26%20Configure%20Azure%20Firewall%20%26%20Application%20Gateway.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/main/LabFiles/6.%20Monitoring%20Azure%20Network.md",
+        "Order": 6
+      },
+      
+    ]
+  }
+]
