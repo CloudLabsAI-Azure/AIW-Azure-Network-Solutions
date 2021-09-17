@@ -11,6 +11,11 @@ Contoso Insurance has placed both offices in different networks and connected th
 
 Contoso Insurance Company has set up the application gateway to connect with the Servers because of safety concerns and they have set up an Azure Firewall with Firewall policy on the application gateway to keep the servers safe from attackers
 
+### Lab Context
+
+In this workshop, you will learn to setup and configure a virtual network with subnets in Azure. you will deploy a pre-configured IaaS environment and then redesign and update it to account for high availability with the help of Azure Load balancer. 
+
+
 ### Solution Architecture
 
  ![pip](https://github.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/blob/main/media/Picture10.png?raw=true)
