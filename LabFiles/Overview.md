@@ -8,4 +8,5 @@ Contoso Insurance Company has set up the application gateway to connect with the
 
 ### Solution Architecture
 
+ ![pip](https://github.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/blob/main/media/Picture10.png?raw=true)
 
