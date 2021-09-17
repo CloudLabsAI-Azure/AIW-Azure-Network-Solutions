@@ -15,7 +15,7 @@ Contoso Insurance Company has set up the application gateway to connect with the
 
 In this workshop, you will learn how to setup and configure a virtual network with subnets in Azure. You will deploy a pre-configured IaaS environment then redesign and update it to account for high availability with the help of Azure Load balancer. You will provision Virtual Network in secondary region and deploy a virtual machine within the Vnet. You'll also configure Peering connections between the Vnets and test inter-site virtual machine connectivity on your private network.
 
-You will learn how to enhance the security of your application with the help of Azure application gateway (WAF) and Azure Firewall. You will configure User defined route(UDR) and outbound traffic to go via Azure Firewall. 
+You will learn how to enhance the security of your application with the help of Azure application gateway (WAF) and Azure Firewall. You will configure User defined route(UDR) and outbound traffic to go via Azure Firewall. You will enable Network Watcher and utilize tools to monitor, troubleshoot, view metrics, and enable logs for resources in your Azure virtual network.
 
 
 ### Solution Architecture
