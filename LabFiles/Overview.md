@@ -15,6 +15,8 @@ Contoso Insurance Company has set up the application gateway to connect with the
 
 ## Exercise 1: Getting Started with Azure 
 
+In this exercise, you will log in to the Azure Portal and review the pre-deployed resources as part of the lab environment.
+
 ## Exercise 2: Provision Network Landing Zone
 
 In this exercise, you'll create a Virtual Network and subnets for different scenarios like AVD, DMZ, Internal, and AzureFirewallSubnet.
