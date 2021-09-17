@@ -9,7 +9,7 @@ Contoso Insurance Company has been in business for over 20 years and is a well-k
 
 Contoso Insurance has placed both offices in different networks and connected the networks to each other using VNet peering to communicate between the branches and access the resources vice-versa. Also, they have set up an availability set on their headquarter servers to give 100 percent availability to their Users. They have set up a Load Balancer to maintain the load between the servers and switch whenever required. 
 
-Contoso Insurance Company has set up the application gateway to connect with the Servers because of safety concerns and they have set up an Azure Firewall with Firewall policy on the application gateway to keep the servers safe from attackers
+Contoso Insurance Company has set up the application gateway to connect with the Servers because of safety concerns and they have set up an Azure Firewall with Firewall policy on the application gateway to keep the servers safe from attackers.
 
 ### Lab Context
 
