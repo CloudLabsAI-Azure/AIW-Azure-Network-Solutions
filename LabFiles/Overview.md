@@ -17,10 +17,20 @@ Contoso Insurance Company has set up the application gateway to connect with the
 
 ## Exercise 2: Provision Network Landing Zone
 
+In this exercise, you'll create a Virtual Network and subnets for different scenarios like AVD, DMZ, Internal, and AzureFirewallSubnet.
+
 ## Exercise 3: Provision Sample Application in Existing Network
+
+In this exercise, you will create the virtual machines and place them in the backend pool of the load balancer. By doing so, you will be able to check the load balancing between virtual machines. You will also test the behavior of the load balancer in case of VM failover.
 
 ## Exercise 4:  Provision Secondary Azure Region Infrastructure 
 
+In this exercise, you'll create a Virtual Network in Region-2 and deploy a VM within the Vnet. You'll also configure Peering connections between the Vnets and test inter-VM connectivity on your private network
+
 ## Exercise 5: Provision & Configure Azure Firewall & Application Gateway
 
+In this exercise, you will deploy a Firewall and Application Gateway with WAF then you will publish an application through them. You'll also test the application for security and perform a sample attack, and also you'll configure UDR and outbound traffic to go via Azure Firewall.
+
 ## Exercise 6: Monitoring Azure Network
+
+In this exercise, you will enable a Network Watcher and create Flow Logs to run Sample traffic and perform Sample network troubleshooting. You'll also deploy Log Analytics Workspace and Network Monitoring Solution to set up Azure Monitor Alerts and test notifications.
