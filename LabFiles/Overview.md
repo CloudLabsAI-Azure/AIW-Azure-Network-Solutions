@@ -1,3 +1,5 @@
+### Azure Networking Solutions
+
 ### Overview
 
 Contoso Insurance Company has been in business for over 20 years and is a well-known and respected name brand in the Insurance industry. They are historically risk-averse, and it has served them well, enabling them to weather several financial storms that closed the doors on similarly sized institutions. While Contoso started in Miami United States, around 20 years ago, they have started their new branch in Florida city around 10 years ago. 
@@ -9,4 +11,16 @@ Contoso Insurance Company has set up the application gateway to connect with the
 ### Solution Architecture
 
  ![pip](https://github.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/blob/main/media/Picture10.png?raw=true)
+ 
 
+## Exercise 1: Getting Started with Azure 
+
+## Exercise 2: Provision Network Landing Zone
+
+## Exercise 3: Provision Sample Application in Existing Network
+
+## Exercise 4:  Provision Secondary Azure Region Infrastructure 
+
+## Exercise 5: Provision & Configure Azure Firewall & Application Gateway
+
+## Exercise 6: Monitoring Azure Network
