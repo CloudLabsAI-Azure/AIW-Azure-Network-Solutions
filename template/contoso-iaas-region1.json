@@ -73,7 +73,7 @@
                     ]
                 },
                 "osProfile": {
-                    "computerName": "[variables('vmname')]",
+                    "computerName": " vmcontosonode01",
                     "adminUsername": "[variables('adminUsername')]",
                     "adminPassword": "[variables('adminPassword')]",
                     "windowsConfiguration": {
