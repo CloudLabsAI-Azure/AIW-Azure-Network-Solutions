@@ -6,7 +6,7 @@
         "azureSubscriptionID": "[subscription().subscriptionId]",
         "resourceGroupName": "[resourceGroup().name]",
         "location": "[resourceGroup().location]",
-        "vmname": "vm-contoso-001",
+        "vmname": "vm-contoso-frontend-prod-eastus-001",
         "adminUsername": "demouser",
         "adminPassword": "Password.1!!",
         "networkInterfaceName1": "nic-contoso-frontend-prod-001",
