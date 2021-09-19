@@ -15,7 +15,7 @@
      "virtualMachineSize": "Standard_D2s_v3",
      "virtualNetworkName": "vnet-contoso-prod-eastus-001",
      "networkSecurityGroupName": "nsg-contoso-weballow-002",
-     "SubnetName": "snet-prod-eastus-internal",
+     "SubnetName": "snet-prod-eastus-internalserver",
      "subnetRef": "[resourceId(variables('resourceGroupName'),'Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('SubnetName'))]"
  },
  "resources": [
