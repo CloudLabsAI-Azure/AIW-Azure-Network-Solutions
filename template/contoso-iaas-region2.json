@@ -94,9 +94,6 @@
          "apiVersion": "2021-03-01",
          "name": "[variables('jumphost')]",
          "location": "[variables('location')]",
-         "zones": [
-            "2"
-           ],
          "dependsOn": [
              "[concat('Microsoft.Network/networkInterfaces/', variables('networkInterfaceName1'))]"
          ],
