@@ -8,14 +8,16 @@
  "variables": {
      "resourceGroupName": "[resourceGroup().name]",
      "location": "[resourceGroup().location]",
-     "jumphost": "vm-contoso-app-prod-centralus-001",
+     "jumphost": "vm-contoso-app-prod-westus-001",
      "adminUsername": "demouser",
      "adminPassword": "Password.1!!",
      "networkInterfaceName1": "nic-contoso-app-prod-001",
      "virtualMachineSize": "Standard_D2s_v3",
-     "virtualNetworkName": "vnet-contoso-prod-centralus-001",
+     "virtualNetworkName": "vnet-contoso-prod-westus-001",
      "networkSecurityGroupName": "nsg-contoso-weballow-001",
-     "SubnetName": "snet-prod-centralus-internalserver",
+     "SubnetName": "snet-prod-westus-internalserver",
+     "publicIpAddressDNSName": "[concat('contosoinsurance-application-', uniqueString(resourceGroup().id))]",
+     "publicIpAddressName": "pip-contoso-prod-westus",
      "subnetRef": "[resourceId(variables('resourceGroupName'),'Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('SubnetName'))]"
  },
  "resources": [
@@ -25,7 +27,7 @@
          "name": "[variables('networkInterfaceName1')]",
          "location": "[variables('location')]",
          "dependsOn": [
-             
+             "[concat('Microsoft.Network/publicIpAddresses/', variables('publicIpAddressName'))]",
              "[concat('Microsoft.Network/networkSecurityGroups/', variables('networkSecurityGroupName'))]"
          ],
          "properties": {
@@ -36,12 +38,30 @@
                          "subnet": {
                              "id": "[variables('subnetRef')]"
                          },
-                         "privateIPAllocationMethod": "Dynamic"
+                         "privateIPAllocationMethod": "Dynamic",
+                         "publicIpAddress": {
+                             "id": "[resourceId(resourceGroup().name,'Microsoft.Network/publicIpAddresses', variables('publicIpAddressName'))]"
+                         }
                      }
                  }
              ],
              "networkSecurityGroup": {
                  "id": "[resourceId(resourceGroup().name, 'Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroupName'))]"
+             }
+         }
+     },
+     {
+         "type": "Microsoft.Network/publicIpAddresses",
+         "apiVersion": "2017-08-01",
+         "name": "[variables('publicIpAddressName')]",
+         "location": "[variables('location')]",
+         "sku": {
+             "name": "Standard"
+         },
+         "properties": {
+             "publicIpAllocationMethod": "static",
+             "dnsSettings": {
+                 "domainNameLabel": "[concat(variables('publicIpAddressDNSName'))]"
              }
          }
      },
