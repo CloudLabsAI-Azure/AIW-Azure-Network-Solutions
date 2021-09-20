@@ -1,0 +1,147 @@
+
+{
+ "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+ "contentVersion": "1.0.0.0",
+ "parameters": {
+     
+ },
+ "variables": {
+     "resourceGroupName": "[resourceGroup().name]",
+     "location": "[resourceGroup().location]",
+     "jumphost": "vm-contoso-app-prod-centralus-001",
+     "adminUsername": "demouser",
+     "adminPassword": "Password.1!!",
+     "networkInterfaceName1": "nic-contoso-app-prod-001",
+     "virtualMachineSize": "Standard_D2s_v3",
+     "virtualNetworkName": "vnet-contoso-prod-centralus-001",
+     "networkSecurityGroupName": "nsg-contoso-weballow-001",
+     "SubnetName": "snet-prod-centralus-internalserver",
+     "subnetRef": "[resourceId(variables('resourceGroupName'),'Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('SubnetName'))]"
+ },
+ "resources": [
+     {
+         "type": "Microsoft.Network/networkInterfaces",
+         "apiVersion": "2016-09-01",
+         "name": "[variables('networkInterfaceName1')]",
+         "location": "[variables('location')]",
+         "dependsOn": [
+             
+             "[concat('Microsoft.Network/networkSecurityGroups/', variables('networkSecurityGroupName'))]"
+         ],
+         "properties": {
+             "ipConfigurations": [
+                 {
+                     "name": "ipconfig1",
+                     "properties": {
+                         "subnet": {
+                             "id": "[variables('subnetRef')]"
+                         },
+                         "privateIPAllocationMethod": "Dynamic"
+                     }
+                 }
+             ],
+             "networkSecurityGroup": {
+                 "id": "[resourceId(resourceGroup().name, 'Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroupName'))]"
+             }
+         }
+     },
+     {
+         "type": "Microsoft.Network/networkSecurityGroups",
+         "apiVersion": "2017-06-01",
+         "name": "[variables('networkSecurityGroupName')]",
+         "location": "[variables('location')]",
+         "properties": {
+             "securityRules": [
+                 {
+                     "name": "Port_80",
+                     "properties": {
+                         "description": "Allow WEB",
+                         "protocol": "Tcp",
+                         "sourcePortRange": "*",
+                         "destinationPortRange": "80",
+                         "sourceAddressPrefix": "Internet",
+                         "destinationAddressPrefix": "*",
+                         "access": "Allow",
+                         "priority": 101,
+                         "direction": "Inbound"
+                     }
+                 }
+             ]
+         }
+     },
+     {
+         "type": "Microsoft.Compute/virtualMachines",
+         "apiVersion": "2021-03-01",
+         "name": "[variables('jumphost')]",
+         "location": "[variables('location')]",
+         "zones": [
+            "2"
+           ],
+         "dependsOn": [
+             "[concat('Microsoft.Network/networkInterfaces/', variables('networkInterfaceName1'))]"
+         ],
+         "properties": {
+             "hardwareProfile": {
+                 "vmSize": "[variables('virtualMachineSize')]"
+             },
+             "storageProfile": {
+                 "osDisk": {
+                     "createOption": "fromImage",
+                     "managedDisk": {
+                         "storageAccountType": "StandardSSD_LRS"
+                     }
+                 },
+                 "imageReference": {
+                     "publisher": "MicrosoftWindowsServer",
+                     "offer": "WindowsServer",
+                     "sku": "2019-datacenter-gensecond",
+                     "version": "latest"
+                 }
+             },
+             "networkProfile": {
+                 "networkInterfaces": [
+                     {
+                         "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaceName1'))]"
+                     }
+                 ]
+             },
+             "osProfile": {
+                 "computerName": "vmcontosonode03",
+                 "adminUsername": "[variables('adminUsername')]",
+                 "adminPassword": "[variables('adminPassword')]",
+                 "windowsConfiguration": {
+                     "enableAutomaticUpdates": true,
+                     "provisionVmAgent": true
+                 }
+             }
+         }
+     },
+     {
+         "type": "Microsoft.Compute/virtualMachines/extensions",
+         "apiVersion": "2015-06-15",
+         "name": "[concat(variables('jumphost'),'/', 'winExtension')]",
+         "location": "[resourceGroup().location]",
+         "dependsOn": [
+             "[concat('Microsoft.Compute/virtualMachines/', variables('jumphost'))]"
+         ],
+         "tags": {
+             "displayName": "VM Extension"
+         },
+         "properties": {
+             "publisher": "Microsoft.Compute",
+             "type": "CustomScriptExtension",
+             "typeHandlerVersion": "1.8",
+             "autoUpgradeMinorVersion": true,
+             "settings": {
+                 "fileUris": [
+                     "https://experienceazure.blob.core.windows.net/templates/AIW-AzureNetwork-Solutions/psscript03.ps1"
+                 ]
+             },
+             "protectedSettings": {
+                 "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File AIW-AzureNetwork-Solutions/psscript03.ps1 ', variables('location'))]"
+             }
+         }
+     }
+ ],
+ "outputs": {}
+ }
