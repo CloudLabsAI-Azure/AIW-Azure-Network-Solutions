@@ -34,10 +34,6 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/main/LabFiles/08.%20Monitoring%20Azure%20Network.md",
         "Order": 8
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/main/LabFiles/09.%20Traffic%20Manager.md",
-        "Order": 9
       }
     ]
   }
