@@ -10,7 +10,11 @@
     "Microsoft.Network/loadBalancers/read",
     "Microsoft.Network/localNetworkGateways/read",
     "Microsoft.Network/virtualNetworkGateways/read",
-    "Microsoft.Network/expressRouteCircuits/read",
+    "Microsoft.Network/expressRouteCircuits/read
+    "Microsoft.Insights/AlertRules/read",
+    "Microsoft.Insights/AlertRules/write",
+    "Microsoft.Insights/MetricAlerts/write",
+    "Microsoft.Insights/MetricAlerts/read",
     "Microsoft.Solutions/*/action",
     "Microsoft.Solutions/applications/read",
     "Microsoft.Resources/subscriptions/resourcegroups/resources/read",
