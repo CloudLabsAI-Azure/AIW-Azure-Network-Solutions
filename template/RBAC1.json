@@ -15,6 +15,7 @@
     "Microsoft.Network/networkWatchers/ipFlowVerify/action",
     "Microsoft.Network/networkWatchers/*",
     "Microsoft.OperationsManagement/solutions/write",
+    "Microsoft.OperationsManagement/solutions/read",
     "Microsoft.Storage/storageAccounts/write",
     "Microsoft.Storage/storageAccounts/read",
     "Microsoft.Storage/storageAccounts/blobServices/*",
