@@ -9,6 +9,7 @@
     "Microsoft.Resources/subscriptions/resourcegroups/resources/read",
     "Microsoft.Storage/storageAccounts/write",
     "Microsoft.Storage/storageAccounts/read",
+    "Microsoft.Network/virtualRouters/peerings/*",
     "Microsoft.Compute/disks/write",
     "Microsoft.Compute/virtualMachines/write",
     "Microsoft.Compute/virtualMachines/extensions/write",
