@@ -5,6 +5,10 @@
   "Description": "Spektra Training Custom Role",
   "Actions": [
     "Microsoft.Resources/deployments/*",
+    "Microsoft.Network/networkWatchers/troubleshoot/action",
+    "Microsoft.AlertsManagement/actionRules/write",
+    "Microsoft.Network/networkWatchers/connectionMonitors/providers/Microsoft.Insights/metricDefinitions/read",
+    "Microsoft.Network/networkWatchers/connectionMonitors/write",
     "Microsoft.Resources/subscriptions/resourceGroups/read",
     "Microsoft.Network/connections/read",
     "Microsoft.Insights/ActivityLogAlerts/write",
