@@ -59,6 +59,7 @@
     "Microsoft.Network/routeTables/read",
     "Microsoft.Network/routeTables/write",
     "Microsoft.Network/routeTables/routes/write",
+    "Microsoft.Network/routeTables/join/action",
     "Microsoft.Network/routeTables/routes/read",
     "Microsoft.SecurityInsights/alertRules/read",
     "Microsoft.SecurityInsights/alertRules/write",
