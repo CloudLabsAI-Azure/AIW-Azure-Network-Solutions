@@ -13,6 +13,7 @@
     "Microsoft.Compute/virtualMachines/extensions/read",
     "Microsoft.Network/networkInterfaces/read",
     "Microsoft.Network/networkInterfaces/write",
+    "Microsoft.Network/networkSecurityGroups/securityRules/write",
     "Microsoft.Network/networkInterfaces/join/action",
     "Microsoft.Network/networkSecurityGroups/write",
     "Microsoft.Network/publicIPAddresses/write",
