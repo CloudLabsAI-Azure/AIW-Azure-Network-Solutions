@@ -11,6 +11,8 @@
     "Microsoft.Network/localNetworkGateways/read",
     "Microsoft.Network/virtualNetworkGateways/read",
     "Microsoft.Network/expressRouteCircuits/read",
+    "Microsoft.Solutions/*/action",
+    "Microsoft.Solutions/applications/read",
     "Microsoft.Resources/subscriptions/resourcegroups/resources/read",
     "Microsoft.Network/networkWatchers/ipFlowVerify/action",
     "Microsoft.Network/networkWatchers/*",
