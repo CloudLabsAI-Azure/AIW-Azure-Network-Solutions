@@ -45,6 +45,7 @@
     "Microsoft.Network/firewallPolicies/write",
     "Microsoft.Network/firewallPolicies/join/action",
     "Microsoft.Network/firewallPolicies/ruleCollectionGroups/write",
+    "Microsoft.Network/loadBalancers/*",
     "Microsoft.Network/loadBalancers/read",
     "Microsoft.Network/loadBalancers/write",
     "Microsoft.Network/loadBalancers/backendAddressPools/write",
