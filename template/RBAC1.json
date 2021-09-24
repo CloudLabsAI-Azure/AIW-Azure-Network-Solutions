@@ -12,6 +12,7 @@
     "Microsoft.Network/virtualNetworkGateways/read",
     "Microsoft.Network/expressRouteCircuits/read",
     "Microsoft.Resources/subscriptions/resourcegroups/resources/read",
+    "Microsoft.Network/networkWatchers/ipFlowVerify/action",
     "Microsoft.Storage/storageAccounts/write",
     "Microsoft.Storage/storageAccounts/read",
     "Microsoft.Storage/storageAccounts/blobServices/*",
