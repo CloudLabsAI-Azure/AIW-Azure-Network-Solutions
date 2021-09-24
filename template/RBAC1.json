@@ -14,7 +14,7 @@
     "Microsoft.network/networkwatchers/flowlogs/write",
     "Microsoft.network/networkwatchers/flowlogs/read",
     "Microsoft.Storage/storageAccounts/listKeys/action",
-    "Microsoft.OperationalInsights/workspaces/sharedKeys/action",
+    "Microsoft.OperationalInsights/workspaces/*",
     "Microsoft.Network/virtualRouters/peerings/*",
     "Microsoft.Compute/disks/write",
     "Microsoft.Compute/virtualMachines/write",
