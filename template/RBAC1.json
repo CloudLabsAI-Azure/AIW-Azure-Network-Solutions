@@ -8,7 +8,6 @@
     "Microsoft.Network/networkWatchers/troubleshoot/action",
     "Microsoft.insights/actiongroups/*",
     "Microsoft.AlertsManagement/actionRules/write",
-    "Microsoft.Network/networkWatchers/connectionMonitors/providers/Microsoft.Insights/metricDefinitions/read",
     "Microsoft.Network/networkWatchers/connectionMonitors/write",
     "Microsoft.Resources/subscriptions/resourceGroups/read",
     "Microsoft.Network/connections/read",
