@@ -105,7 +105,9 @@
     "Microsoft.Network/virtualNetworks/peer/action",
     "Microsoft.Network/virtualNetworks/join/action",
     "Microsoft.Network/networkWatchers/read",
-    "Microsoft.Network/networkWatchers/write"
+    "Microsoft.Network/networkWatchers/write",
+    "Microsoft.AlertsManagement/alertsList/read",
+    "Microsoft.AlertsManagement/alertsMetaData/read",
     
   ],
   "NotActions": [
