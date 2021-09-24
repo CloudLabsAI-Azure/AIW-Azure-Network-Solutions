@@ -11,6 +11,8 @@
     "Microsoft.Storage/storageAccounts/read",
     "Microsoft.Storage/storageAccounts/blobServices/*",
     "Microsoft.Storage/storageAccounts/fileServices/*",
+    "Microsoft.network/networkwatchers/flowlogs/write",
+    "Microsoft.network/networkwatchers/flowlogs/read",
     "Microsoft.Network/virtualRouters/peerings/*",
     "Microsoft.Compute/disks/write",
     "Microsoft.Compute/virtualMachines/write",
