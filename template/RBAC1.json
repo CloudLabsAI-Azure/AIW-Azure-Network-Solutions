@@ -6,6 +6,7 @@
   "Actions": [
     "Microsoft.Resources/deployments/*",
     "Microsoft.Resources/subscriptions/resourceGroups/read",
+    "Microsoft.Network/connections/read",
     "Microsoft.Resources/subscriptions/resourcegroups/resources/read",
     "Microsoft.Storage/storageAccounts/write",
     "Microsoft.Storage/storageAccounts/read",
