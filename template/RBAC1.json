@@ -108,6 +108,7 @@
     "Microsoft.Network/networkWatchers/write",
     "Microsoft.AlertsManagement/alertsList/read",
     "Microsoft.AlertsManagement/alertsMetaData/read",
+    "Microsoft.Network/networkWatchers/connectionMonitors/providers/Microsoft.Insights/metricDefinitions/read"
     
   ],
   "NotActions": [
