@@ -6,8 +6,7 @@
   "Actions": [
     "Microsoft.Resources/deployments/*",
     "Microsoft.Network/networkWatchers/troubleshoot/action",
-    "microsoft.insights/actiongroups/read",
-    "microsoft.insights/actiongroups/write"
+    "Microsoft.insights/actiongroups/*",
     "Microsoft.AlertsManagement/actionRules/write",
     "Microsoft.Network/networkWatchers/connectionMonitors/providers/Microsoft.Insights/metricDefinitions/read",
     "Microsoft.Network/networkWatchers/connectionMonitors/write",
@@ -23,7 +22,6 @@
     "Microsoft.Network/expressRouteCircuits/read",
     "Microsoft.Insights/AlertRules/read",
     "Microsoft.Insights/AlertRules/write",
-    "Microsoft.Solutions/*/action",
     "Microsoft.Solutions/applications/read",
     "Microsoft.Resources/subscriptions/resourcegroups/resources/read",
     "Microsoft.Network/networkWatchers/ipFlowVerify/action",
