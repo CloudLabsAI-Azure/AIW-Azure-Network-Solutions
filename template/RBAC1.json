@@ -11,6 +11,7 @@
     "Microsoft.Storage/storageAccounts/read",
     "Microsoft.Compute/disks/write",
     "Microsoft.Compute/virtualMachines/write",
+    "Microsoft.Compute/virtualMachines/extensions",
     "Microsoft.Network/networkInterfaces/read",
     "Microsoft.Network/networkInterfaces/write",
     "Microsoft.Network/networkInterfaces/join/action",
