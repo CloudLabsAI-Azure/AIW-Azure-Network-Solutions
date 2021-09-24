@@ -35,6 +35,7 @@
     "Microsoft.Network/publicIPAddresses/join/action",
     "Microsoft.Network/virtualNetworks/subnets/join/action",
     "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/write",
+    "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/read",
     "Microsoft.Network/networkWatchers/read",
     "Microsoft.Network/networkWatchers/write"
   ],
