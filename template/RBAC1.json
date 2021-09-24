@@ -7,6 +7,8 @@
     "Microsoft.Resources/deployments/*",
     "Microsoft.Resources/subscriptions/resourceGroups/read",
     "Microsoft.Network/connections/read",
+    "Microsoft.Insights/ActivityLogAlerts/write",
+    "Microsoft.Insights/ActivityLogAlerts/read",
     "Microsoft.Compute/virtualMachines/providers/Microsoft.Insights/*",
     "Microsoft.Network/loadBalancers/read",
     "Microsoft.Network/localNetworkGateways/read",
