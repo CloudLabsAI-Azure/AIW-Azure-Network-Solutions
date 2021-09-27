@@ -37,7 +37,6 @@
     "Microsoft.OperationalInsights/workspaces/*",
     "Microsoft.Network/virtualRouters/peerings/*",
     "Microsoft.Compute/disks/write",
-    "Microsoft.Compute/virtualMachines/write",
     "Microsoft.Compute/virtualMachines/extensions/write",
     "Microsoft.Compute/virtualMachines/extensions/read",
     "Microsoft.Network/networkInterfaces/read",
