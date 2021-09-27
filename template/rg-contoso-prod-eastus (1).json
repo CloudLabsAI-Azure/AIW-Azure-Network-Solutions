@@ -12,6 +12,10 @@
 				    "field": "type",
 				    "like": "Microsoft.Compute/virtualMachines/*"
 				    },
+	             {
+				    "field": "type",
+				    "like": "Microsoft.Insights/ActionGroups/"
+				    },
                     {
 				    "field": "type",
 				    "like": "Microsoft.Compute/virtualMachines/extensions/*"
