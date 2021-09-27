@@ -68,6 +68,10 @@
 				    "field": "type",
 				    "like": "Microsoft.Storage/storageAccounts/*"
 				    },
+		    {
+				    "field": "type",
+				    "like": "Microsoft.AlertsManagement/*"
+				    },
                     {
 				    "field": "type",
 				    "in": ["Microsoft.Compute/disks", "Microsoft.Compute/virtualMachines", "Microsoft.Compute/virtualMachines/extensions", "microsoft.insights/actiongroups", "Microsoft.Network/applicationGateways", "Microsoft.Network/azureFirewalls", "Microsoft.Network/firewallPolicies", "Microsoft.Network/loadBalancers", "Microsoft.Network/networkInterfaces", "Microsoft.Network/networkSecurityGroups", "Microsoft.Network/publicIPAddresses", "Microsoft.Network/routeTables", "Microsoft.Network/virtualNetworks", "Microsoft.OperationalInsights/workspaces", "Microsoft.OperationsManagement/solutions", "Microsoft.Storage/storageAccounts"]
