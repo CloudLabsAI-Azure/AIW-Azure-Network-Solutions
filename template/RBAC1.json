@@ -5,6 +5,7 @@
   "Description": "Spektra Training Custom Role",
   "Actions": [
     "Microsoft.Resources/deployments/*",
+    "Microsoft.OperationalInsights/workspaces/datasources/read",
     "Microsoft.Network/networkWatchers/troubleshoot/action",
     "Microsoft.Compute/virtualMachines/providers/*",
     "Microsoft.Network/networkWatchers/*",
