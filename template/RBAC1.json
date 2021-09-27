@@ -6,6 +6,7 @@
   "Actions": [
     "Microsoft.Resources/deployments/*",
     "Microsoft.OperationalInsights/workspaces/datasources/read",
+    "Microsoft.OperationalInsights/workspaces/*",
     "Microsoft.Network/networkWatchers/troubleshoot/action",
     "Microsoft.Compute/virtualMachines/providers/*",
     "Microsoft.Network/networkWatchers/*",
