@@ -6,7 +6,7 @@
   "Actions": [
     "Microsoft.Resources/deployments/*",
     "Microsoft.Network/networkWatchers/troubleshoot/action",
-    "Microsoft.Network/networkWatchers/connectivityCheck/action",
+    "Microsoft.Network/networkWatchers/*",
     "Microsoft.Storage/storageAccounts/fileServices/*",
     "Microsoft.Storage/storageAccounts/blobServices/*",
     "Microsoft.insights/actiongroups/*",
