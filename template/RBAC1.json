@@ -6,8 +6,8 @@
   "Actions": [
     "Microsoft.Resources/deployments/*",
     "Microsoft.Network/networkWatchers/troubleshoot/action",
-    "Microsoft.Storage/storageAccounts/blobServices/write",
-    "Microsoft.Storage/storageAccounts/blobServices/read",
+    "Microsoft.Storage/storageAccounts/fileServices/*",
+    "Microsoft.Storage/storageAccounts/blobServices/*",
     "Microsoft.insights/actiongroups/*",
     "Microsoft.AlertsManagement/actionRules/write",
     "Microsoft.Network/networkWatchers/connectionMonitors/write",
