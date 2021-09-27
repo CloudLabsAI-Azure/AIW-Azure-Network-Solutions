@@ -12,10 +12,6 @@
 				    "field": "type",
 				    "like": "Microsoft.Compute/virtualMachines/*"
 				    },
-	             {
-				    "field": "type",
-				    "like": "Microsoft.Insights/AlertRules/*"
-				    },
                     {
 				    "field": "type",
 				    "like": "Microsoft.Compute/virtualMachines/extensions/*"
