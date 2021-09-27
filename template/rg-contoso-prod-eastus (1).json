@@ -14,7 +14,7 @@
 				    },
 	             {
 				    "field": "type",
-				    "like": "Microsoft.Insights/ActionGroups/"
+				    "like": "Microsoft.Insights/AlertRules/*"
 				    },
                     {
 				    "field": "type",
