@@ -9,6 +9,7 @@
     "Microsoft.Storage/storageAccounts/fileServices/*",
     "Microsoft.Storage/storageAccounts/blobServices/*",
     "Microsoft.insights/actiongroups/*",
+    "Microsoft.OperationalInsights/workspaces/sharedKeys/action",
     "Microsoft.AlertsManagement/actionRules/write",
     "Microsoft.Network/networkWatchers/connectionMonitors/write",
     "Microsoft.Resources/subscriptions/resourceGroups/read",
