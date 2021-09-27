@@ -6,6 +6,7 @@
   "Actions": [
     "Microsoft.Resources/deployments/*",
     "Microsoft.Network/networkWatchers/troubleshoot/action",
+    "Microsoft.Compute/virtualMachines/providers/Microsoft.Insights/*",
     "Microsoft.insights/actiongroups/*",
     "Microsoft.AlertsManagement/actionRules/write",
     "Microsoft.Network/networkWatchers/connectionMonitors/write",
