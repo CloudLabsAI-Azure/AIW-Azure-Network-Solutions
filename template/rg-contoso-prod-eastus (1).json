@@ -152,6 +152,10 @@
 			  "not": {
 				"field": "Microsoft.Network/applicationGateways/Sku.Tier",
 				"in": ["WAF"]
+				},
+				{
+				"field": "Microsoft.Network/applicationGateways/Sku.capacity",
+				"in": ["1"]
 				}
 			  }
 			]
