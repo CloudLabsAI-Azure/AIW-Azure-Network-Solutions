@@ -1,0 +1,179 @@
+{
+	 "if": {
+	    "anyOf": [
+		 {
+			"not": {
+			  "anyOf": [
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Compute/disks/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Compute/virtualMachines/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Compute/virtualMachines/extensions/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "microsoft.insights/actiongroups/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/applicationGateways/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/azureFirewalls/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/firewallPolicies/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/loadBalancers/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/networkInterfaces/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/networkSecurityGroups/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/publicIPAddresses/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/routeTables/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/virtualNetworks/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.OperationalInsights/workspaces/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.OperationsManagement/solutions/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Storage/storageAccounts/*"
+				    },
+		    {
+				    "field": "type",
+				    "like": "Microsoft.AlertsManagement/*"
+				    },
+                    {
+				    "field": "type",
+				    "in": ["Microsoft.Compute/disks", "Microsoft.Compute/virtualMachines", "Microsoft.Compute/virtualMachines/extensions", "microsoft.insights/actiongroups", "Microsoft.Network/applicationGateways", "Microsoft.Network/azureFirewalls", "Microsoft.Network/firewallPolicies", "Microsoft.Network/loadBalancers", "Microsoft.Network/networkInterfaces", "Microsoft.Network/networkSecurityGroups", "Microsoft.Network/publicIPAddresses", "Microsoft.Network/routeTables", "Microsoft.Network/virtualNetworks", "Microsoft.OperationalInsights/workspaces", "Microsoft.OperationsManagement/solutions", "Microsoft.Storage/storageAccounts"]
+				    }
+                ]
+			}
+		 },
+          {
+		  "allof": [
+			{
+			  "field": "type",
+			  "equals": "Microsoft.Compute/disks"
+			},
+			{
+			  "not": {
+				"field": "Microsoft.Compute/disks/Sku.Tier",
+				"in": ["Standard"]
+				}
+			  }
+			]
+		  },
+          {
+		  "allOf": [
+			{
+			  "field": "type",
+			  "equals": "Microsoft.Compute/virtualMachines"
+			},
+			{
+			  "not": {
+				"allOf": [
+				  {
+                    "field": "Microsoft.Compute/virtualMachines/imageOffer",
+					"in": ["WindowsServer"]
+				  },
+				  {
+					"field": "Microsoft.Compute/virtualMachines/imagePublisher",
+					"in": ["MicrosoftWindowsServer"]
+				  },
+				  {
+					"field": "Microsoft.Compute/virtualMachines/imageSku",
+					 "in": ["2019-datacenter-gensecond"]
+				  },
+				  {
+					"field": "Microsoft.Compute/virtualMachines/sku.name",
+					"in": ["Standard_D2s_v3"]
+				  }
+				]
+			  }
+			}
+		   ]
+		},
+            {
+			"allOf": [
+			  {
+				"source": "action",
+				"equals": "Microsoft.Storage/storageAccounts/write"
+			  },
+			  {
+				"field": "type",
+				"equals": "Microsoft.Storage/storageAccounts"
+			  },
+			  {
+				"not": 
+				  {
+					"field": "Microsoft.Storage/storageAccounts/sku.name",
+					"in": ["StandardRAGRS"]
+				  }
+			   }
+			]
+		  },
+          {
+		  "allof": [
+			{
+			  "field": "type",
+			  "equals": "Microsoft.Network/applicationGateways"
+			},
+			{
+			  "not": {
+				"field": "Microsoft.Network/applicationGateways/Sku.Tier",
+				"in": ["WAF"]
+				}
+			  }
+			]
+		  },
+          {
+		  "allof": [
+			{
+			  "field": "type",
+			  "equals": "Microsoft.Network/loadBalancers"
+			},
+			{
+			  "not": {
+				"field": "Microsoft.Network/loadBalancers/Sku.Name",
+				"in": ["Standard"]
+				}
+			  }
+			]
+		  },
+
+	  ]
+	},
+	"then": {
+	  "effect": "deny"
+	}
+}
