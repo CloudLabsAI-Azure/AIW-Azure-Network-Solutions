@@ -9,7 +9,6 @@
     "Microsoft.Network/networkWatchers/troubleshoot/action",
     "Microsoft.Compute/virtualMachines/providers/*",
     "Microsoft.Network/networkWatchers/*",
-    "Microsoft.Insights/*",
     "Microsoft.Network/networkWatchers/connectionMonitors/providers/Microsoft.Insights/metricDefinitions/read",
     "Microsoft.Storage/storageAccounts/fileServices/*",
     "Microsoft.Storage/storageAccounts/blobServices/*",
