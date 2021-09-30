@@ -151,11 +151,11 @@
              "autoUpgradeMinorVersion": true,
              "settings": {
                  "fileUris": [
-                     "https://experienceazure.blob.core.windows.net/templates/AIW-AzureNetwork-Solutions/psscript03.ps1"
+                     "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/main/template/psscript3.ps1"
                  ]
              },
              "protectedSettings": {
-                 "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File AIW-AzureNetwork-Solutions/psscript03.ps1 ', variables('location'))]"
+                 "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File psscript03.ps1 ', variables('location'))]"
              }
          }
      }
