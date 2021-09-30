@@ -105,7 +105,7 @@
                     ]
                 },
                 "protectedSettings": {
-                    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File psscript1.ps1 ', variables('location'))]"
+                    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File AIW-Azure-Network-Solutions/main/template/psscript1.ps1 ', variables('location'))]"
                 }
             }
         }
