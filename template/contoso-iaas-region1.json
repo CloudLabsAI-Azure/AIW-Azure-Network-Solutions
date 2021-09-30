@@ -101,7 +101,7 @@
                 "autoUpgradeMinorVersion": true,
                 "settings": {
                     "fileUris": [
-                        "https://experienceazure.blob.core.windows.net/templates/AIW-AzureNetwork-Solutions/psscript1.ps1"
+                        "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/main/template/psscript.ps1"
                     ]
                 },
                 "protectedSettings": {
