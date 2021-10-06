@@ -14,7 +14,7 @@ Install-WindowsFeature -Name "web-server" `
                        -IncludeAllSubFeature
 
 #Download and Unpack the Website
-$zipDownload = "https://experienceazure.blob.core.windows.net/templates/AIW-AzureNetwork-Solutions/WebApp.zip"
+$zipDownload = "https://github.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/blob/main/template/WebApp.zip?raw=true"
 #$zipDownload = "https://www.dropbox.com/s/wcfnuf76h3tn3ws/ContosoInsuranceIIS.zip?dl=1"
 $downloadedFile = "C:\ContosoInsuranceIIS.zip"
 $inetpubFolder = "C:\inetpub\wwwroot"
